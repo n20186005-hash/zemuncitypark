@@ -1,0 +1,7 @@
+{
+  "name": "zemun-city-park",
+  "compatibility_date": "2024-01-01",
+  "pages": {
+    "build_output_dir": ".open-next/assets"
+  }
+}
