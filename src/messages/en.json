@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "Zemun City Park｜Belgrade's Century-Old Oasis Where East Meets West - Best Leisure Spot in Serbia",
+    "description": "Complete guide to Zemun City Park in Belgrade, Serbia. Learn about opening hours, transportation, ticket info, tour tips and stunning photos. Discover twin churches, Roman sarcophagi, and Austro-Hungarian heritage in this historic park."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Zemun City Park",
+    "subtitle": "Belgrade's Century-Old Oasis Where East Meets West",
+    "rating": "4.7(6,191)",
+    "reviewCount": "6,191 reviews",
+    "hours": "Open 24/7",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Discover Zemun City Park",
+    "description": "When you cross the river from Belgrade's Old Town to Zemun, you'll instantly feel like you've stepped into another country — the architecture here is more reminiscent of Vienna or Budapest, and Zemun City Park is the perfect first stop to experience this lingering Austro-Hungarian charm.\n\nAs you enter the park, tall plane trees and ancient oaks form a green canopy overhead. Following the gentle stone paths deeper in, you'll be struck by a remarkable sense of harmony: an Orthodox church and a Catholic church stand side by side on the same lawn, as if silently recounting the days when people of different faiths prayed together in the former quarantine zone.\n\nOn nearby benches, students from Zemun High School review their lessons in the sunshine, while retired men focus intently on their chess games. There's no crowds or noise of the Old Town tourist spots here — every fallen leaf and every statue exudes an unhurried elegance. It's a living history museum and the gentlest green oasis in the daily life of Zemun's residents.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "Recommended to visit in the morning or late afternoon, then stroll to the Zemun Danube waterfront",
+        "The entire park and church exteriors are free to visit; church interiors are typically open 08:00-18:00",
+        "The park is fully flat and accessible for strollers and wheelchairs",
+        "Highly shaded by trees, making it a perfect summer retreat"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Twin churches of different faiths standing side by side",
+        "Site of Europe's most famous 18th-century border quarantine station",
+        "19th-century European classical garden-style city park",
+        "The beloved 'back garden' of Zemun locals"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "The Charm of Zemun City Park",
+    "sections": [
+      {
+        "id": "history",
+        "title": "A Century of Border History",
+        "content": "This was once the site of Europe's most famous border quarantine zone (Contumaz) from the late 18th to 19th century. At that time, Zemun belonged to the Austro-Hungarian Empire, while Belgrade across the river was under the Ottoman Turkish Empire. All merchants, travelers, and goods entering Europe from the East had to be quarantined here for weeks to prevent the spread of plague. In 1730, the Habsburg Monarchy established a strict border quarantine station here, serving as the first line of defense against plagues from the East. The quarantine station remained operational until 1872. In 1880, driven by local officials, this former 'quarantine zone of life and death' was transformed into a public green space with the first trees planted. Over the following decades, monasteries, schools, and women's colleges were built around the park, transforming it into Zemun's cultural and educational center. By the end of the 19th century, the quarantine zone had been completely transformed into a European classical-style city park, bearing witness to both the physical separation and cultural fusion of East and West."
+      },
+      {
+        "id": "architecture",
+        "title": "Architectural Features",
+        "content": "The park's most striking feature is two churches of different faiths standing side by side: the Orthodox Church of the Holy Archangel Gabriel (built 1786) and the Catholic Church of St. Roch (built 1836). Additionally, the magnificent Zemun First High School (Zemunska gimnazija) stands at the park's edge, along with nearly 2,000-year-old Roman sarcophagi. Both churches feature strong Baroque styling, while Zemun High School exhibits a splendid Neo-Renaissance character, together radiating the rich atmosphere of a Central European town."
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Significance",
+        "content": "Two churches belonging to Eastern and Western Christian traditions coexisting peacefully in the same park is a perfect microcosm of Zemun's — and Serbia's — religious tolerance and multicultural coexistence. As the 'back garden' of Zemun locals, it carries the childhood memories of generations and offers an authentic window into the peaceful daily life of Serbia. The park also preserves a monument to the French poet Lamartine and a memorial to the anti-fascist hostages executed in 1941, recording the heavy history of this land during World War II."
+      },
+      {
+        "id": "experience",
+        "title": "Core Experience",
+        "content": "Stroll beneath the green canopy of century-old trees and feel the elegance and tranquility of a 19th-century European classical garden. Pause before the twin Baroque churches and appreciate the harmonious coexistence of Eastern and Western faiths on this land. In autumn, the century-old ginkgo tree showers the ground in golden leaves — a perfect setting for atmospheric portrait photography. On afternoon benches, watch Zemun High School students study in the sunshine while elderly men focus on their chess games — this is a living history museum and the gentlest green oasis in Zemun's daily life."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Градски парк у Земуну / Gradski park u Zemunu (Zemun City Park)",
+    "type": "Attraction Type",
+    "typeValue": "Urban Ecological Park, Historic Quarantine Site, Cultural & Religious Intersection",
+    "country": "Country",
+    "countryValue": "Serbia",
+    "city": "City",
+    "cityValue": "Belgrade, Zemun District",
+    "googleRating": "Google Rating",
+    "googleRatingValue": "4.7/5 (6,191)",
+    "phone": "Phone",
+    "phoneValue": "+381-11-2113-706",
+    "address": "Address",
+    "addressValue": "Gradski park 9, Beograd, Serbia"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "outdoor": "Park Grounds (Paths & Public Areas)",
+    "outdoorTime": "Open 24/7, year-round, no access restrictions",
+    "church": "Church Interior Visits",
+    "churchTime": "08:00 - 18:00 (may be restricted during religious services)",
+    "tip": "Recommended to visit in the morning or late afternoon, then stroll to the nearby Zemun Danube waterfront (Zemunski Kej)"
+  },
+  "tickets": {
+    "title": "Ticket Prices",
+    "park": "Entire Park & Church Exterior Visits",
+    "parkPrice": "Free admission, no entry fee",
+    "tip": "Good to Know",
+    "tipContent": "Zemun City Park is an open public green space with free admission 24/7. Both church exteriors are also free to visit. Church interior hours may be temporarily adjusted due to religious services."
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "bus": "Public Bus (Highly Convenient)",
+    "busDesc": "From Belgrade's Old Town (near Republic Square or Studentski Trg), take bus lines 15, 84, 704, 706, or 707 across the Sava River. Get off at Zemun Pošta or Poljoprivredni fakultet station in Zemun, then walk 3-5 minutes to the park.",
+    "walk": "Walking",
+    "walkDesc": "If you're already in Zemun district, the park is within a 10-15 minute walk from the famous Zemun Market, Gardoš Tower, and the Danube waterfront.",
+    "taxi": "Taxi",
+    "taxiDesc": "A taxi from Belgrade city center to Zemun City Park takes about 15-20 minutes at an affordable price.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Zemun district has excellent public transportation. Buses are the most convenient option. If you're already in Zemun's Old Town, most attractions are within walking distance."
+  },
+  "route": {
+    "title": "Recommended Route",
+    "overview": "Recommended visit duration: 30-45 minutes. Perfect as the starting point for a 'Zemun Half-Day Tour.' After visiting the park, head east to the Danube waterfront or north to climb Gardoš Tower.",
+    "steps": [
+      "Main Entrance & Roman Sarcophagi: Enter the park from Nemanjina Street and look for the ancient Roman sarcophagi displayed along the paths, feeling the deep historical roots of this land",
+      "Twin Churches Wonder: Walk to the park's core area to see the Orthodox Church of the Holy Archangel Gabriel and the Catholic Church of St. Roch standing side by side — compare their Baroque architectural details",
+      "Century-Old Ginkgo & Sculptures: Stroll along the shaded paths around the churches, find the monument to French poet Lamartine, and admire the golden foliage of the century-old ginkgo tree in autumn",
+      "Zemun High School Façade: Walk to the northern edge of the park to admire the magnificent Neo-Renaissance exterior of Zemun High School (built 1858), soaking in the academic atmosphere",
+      "Connect to the Danube Waterfront: Exit from the park's east side and walk a few blocks to the Zemun Danube promenade (Zemunski Kej) to feed swans or enjoy a riverside lunch"
+    ],
+    "supplements": [
+      "The park is fully flat and accessible for strollers and wheelchairs",
+      "Highly shaded by trees, making it a perfect summer retreat",
+      "Small children's playground facilities available, ideal for families with kids to take a short break"
+    ],
+    "supplementsTitle": "Visitor Notes"
+  },
+  "photoSpots": {
+    "title": "Photo Spots",
+    "spots": [
+      {
+        "name": "Twin Churches in One Frame",
+        "desc": "Stand on the central axis lawn in front of both churches and use a wide-angle lens to capture the Orthodox and Catholic churches together — incredible cultural tension"
+      },
+      {
+        "name": "Tree-Lined Avenue Depth",
+        "desc": "When morning sunlight pierces through the mist, stand in the center of the straight ancient tree path for a deeply layered European garden shot"
+      },
+      {
+        "name": "Zemun High School Vintage Façade",
+        "desc": "Use park foliage as foreground to capture the stately and ornate yellow building façade of Zemun High School"
+      },
+      {
+        "name": "Autumn Foliage Portraits",
+        "desc": "From late October to mid-November, the park lawns are carpeted with golden ginkgo leaves — the perfect setting for atmospheric autumn portraits"
+      }
+    ],
+    "tips": "Photography Tips",
+    "tipsContent": "If you want to photograph inside the churches, please be quiet, avoid service times, and ask clergy for permission in advance (some Orthodox churches strictly prohibit interior photography). The golden ginkgo season in autumn is the best time for photography all year round."
+  },
+  "hotels": {
+    "title": "Accommodation",
+    "hotels": [
+      {
+        "name": "Zemun Danube Botel (Waterfront Boat Hotel)",
+        "desc": "Highly recommended — stay on a boat converted into a hotel moored on the Danube. Wake up, open the window, and feed the swans. Only a 10-minute walk to the park.",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Zemun Old Town Boutique Guesthouses",
+        "desc": "Choose Austro-Hungarian style boutique guesthouses near the market (Pijaca) or at the foot of Gardoš Tower for an authentic local lifestyle experience.",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Zemun Modern Apartments",
+        "desc": "Zemun offers many newly renovated modern apartments. Compared to Belgrade's Old Town, the same price gets you a larger, quieter space in Zemun.",
+        "price": "Price varies by season"
+      }
+    ],
+    "supplements": "Accommodation Tips",
+    "supplementsContent": "The biggest advantage of staying in Zemun is the peaceful atmosphere and excellent safety, offering an authentic small-town experience. While it's a bit farther from Belgrade's Old Town core attractions (like Kalemegdan Fortress), the excellent bus system (about 15 minutes) easily compensates for this."
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Zemun City Park — Century-Old Oasis, Twin Churches & European Garden Scenery",
+    "captions": [
+      "Zemun City Park Panoramic View",
+      "Twin Churches Wonder",
+      "Tree-Lined Avenue",
+      "Century-Old Ginkgo",
+      "Zemun High School Façade",
+      "Roman Sarcophagi",
+      "Park Sculptures",
+      "Autumn Foliage",
+      "Holy Archangel Gabriel Church",
+      "St. Roch Church",
+      "Park Pathways",
+      "Danube Waterfront View"
+    ],
+    "viewAll": "View on Google Maps"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View more reviews on Google Maps",
+    "items": [
+      {
+        "name": "Ming Z.",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "Absolutely stunning! The sight of two churches standing side by side blew me away — Orthodox and Catholic coexisting in the same park, the cultural atmosphere is so unique. The autumn ginkgo is simply breathtaking."
+      },
+      {
+        "name": "Hua L.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "Very easy bus ride from Belgrade Old Town. The park is quiet and elegant, completely different from the hustle of the Old Town. That yellow Zemun High School building really feels like Vienna — every photo turns out amazing."
+      },
+      {
+        "name": "Fang W.",
+        "date": "January 2026",
+        "rating": 5,
+        "text": "Strolling under century-old trees, watching elderly men play chess and students study — this is the most authentic Serbian daily life. Highly recommend combining with the Zemun Danube waterfront!"
+      },
+      {
+        "name": "Wei C.",
+        "date": "December 2025",
+        "rating": 4,
+        "text": "The park itself is free and very peaceful. The historical weight of the Roman sarcophagi is impressive. I recommend coming in the late afternoon — after the park, you can catch the sunset by the Danube. Note that church interiors are sometimes closed to visitors."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Gradski park 9, Beograd, Serbia",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Zemun City Park Independent Travel Research Association · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "council": "Tourism Organization of Serbia",
+      "tourism": "Belgrade Travel",
+      "england": "Visit Serbia"
+    },
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent third-party tourist information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for basic website functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "officialManagement": {
+    "title": "About Zemun City Park",
+    "text": "Zemun City Park is one of the most important urban green spaces and historic cultural landmarks in Belgrade's Zemun district.\nIt was once the site of Europe's most famous border quarantine zone (Contumaz) in the 18th century, witnessing the unique history of Eastern and Western empires converging here. After being transformed into a city park in 1880, it has served as an indispensable leisure space in the daily lives of Zemun residents for over a century. Today, the park is open to the public free of charge. The twin Baroque churches, ancient Roman sarcophagi, and the magnificent Zemun High School make it an excellent destination for experiencing Zemun's multicultural heritage and Central European small-town charm."
+  },
+  "recommendations": {
+    "title": "Discover More",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      {"name": "Gardoš Tower", "url": "https://www.tob.rs/"},
+      {"name": "Zemun Danube Waterfront (Zemunski Kej)", "url": "https://www.tob.rs/"},
+      {"name": "Kalemegdan Fortress", "url": "https://www.tob.rs/"},
+      {"name": "Church of Saint Sava", "url": "https://www.tob.rs/"}
+    ],
+    "tours": [
+      {"name": "Zemun Half-Day Walking Tour", "url": "https://www.tob.rs/"},
+      {"name": "Belgrade History Deep Tour", "url": "https://www.tob.rs/"},
+      {"name": "Danube River Cruise", "url": "https://www.tob.rs/"},
+      {"name": "Serbian Food Tour", "url": "https://www.tob.rs/"}
+    ]
+  }
+}
