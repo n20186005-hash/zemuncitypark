@@ -1,12 +1,13 @@
 import createNextIntlPlugin from 'next-intl/plugin';
+import type { NextConfig } from 'next';
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   output: 'export',
   images: {
     remotePatterns: [
-      { protocol: 'https' as const, hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'images.unsplash.com' },
     ],
     unoptimized: true,
   },
