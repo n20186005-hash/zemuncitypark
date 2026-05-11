@@ -236,7 +236,10 @@
     "officialLinks": {
       "council": "Tourism Organization of Serbia",
       "tourism": "Belgrade Travel",
-      "england": "Visit Serbia"
+      "serbiaGov": "Government of Serbia",
+      "vojvodina": "Tourism Organisation of Vojvodina",
+      "belgradeCity": "City of Belgrade",
+      "heritage": "Cultural Heritage Protection"
     },
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
   },

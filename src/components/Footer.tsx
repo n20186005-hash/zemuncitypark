@@ -27,8 +27,17 @@ export default function Footer() {
               <a href="https://www.tob.rs/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
                 {t('officialLinks.tourism')}
               </a>
-              <a href="https://www.serbia.travel/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.england')}
+              <a href="https://www.srbija.gov.rs/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.serbiaGov')}
+              </a>
+              <a href="https://vojvodina.travel/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.vojvodina')}
+              </a>
+              <a href="https://www.beograd.rs/en/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.belgradeCity')}
+              </a>
+              <a href="https://www.nasledje.gov.rs/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.heritage')}
               </a>
             </div>
           </div>

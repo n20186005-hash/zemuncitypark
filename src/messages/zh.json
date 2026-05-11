@@ -236,7 +236,10 @@
     "officialLinks": {
       "council": "塞尔维亚旅游局",
       "tourism": "贝尔格莱德旅行",
-      "england": "Visit Serbia"
+      "serbiaGov": "塞尔维亚",
+      "vojvodina": "伏伊伏丁那旅游局",
+      "belgradeCity": "贝尔格莱德市",
+      "heritage": "文化遗产保护"
     },
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
   },
