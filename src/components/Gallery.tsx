@@ -1,27 +1,31 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
 const photos = [
-  { src: '/gallery/images (1).jpg', alt: 'Zemun City Park Panoramic View' },
-  { src: '/gallery/images (2).jpg', alt: 'Twin Churches Wonder' },
-  { src: '/gallery/images (3).jpg', alt: 'Tree-Lined Avenue' },
-  { src: '/gallery/images (4).jpg', alt: 'Century-Old Ginkgo' },
-  { src: '/gallery/images (5).jpg', alt: 'Zemun High School Façade' },
-  { src: '/gallery/images (6).jpg', alt: 'Roman Sarcophagi' },
-  { src: '/gallery/images (7).jpg', alt: 'Park Sculptures' },
-  { src: '/gallery/images (8).jpg', alt: 'Autumn Foliage' },
-  { src: '/gallery/images (9).jpg', alt: 'Holy Archangel Gabriel Church' },
-  { src: '/gallery/images (10).jpg', alt: 'St. Roch Church' },
-  { src: '/gallery/images (11).jpg', alt: 'Park Pathways' },
-  { src: '/gallery/images (12).jpg', alt: 'Danube Waterfront View' },
+  { src: '/gallery/images (1).jpg', altKey: 0 },
+  { src: '/gallery/images (2).jpg', altKey: 1 },
+  { src: '/gallery/images (3).jpg', altKey: 2 },
+  { src: '/gallery/images (4).jpg', altKey: 3 },
+  { src: '/gallery/images (5).jpg', altKey: 4 },
+  { src: '/gallery/images (6).jpg', altKey: 5 },
+  { src: '/gallery/images (7).jpg', altKey: 6 },
+  { src: '/gallery/images (8).jpg', altKey: 7 },
+  { src: '/gallery/images (9).jpg', altKey: 8 },
+  { src: '/gallery/images (10).jpg', altKey: 9 },
+  { src: '/gallery/images (11).jpg', altKey: 10 },
+  { src: '/gallery/images (12).jpg', altKey: 11 },
 ];
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const messages = useMessages() as any;
+  const captions: string[] = messages?.gallery?.captions || [];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+
+  const getAlt = (key: number) => captions[key] || `Zemun City Park photo ${key + 1}`;
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
@@ -60,14 +64,14 @@ export default function Gallery() {
                 >
                   <img
                     src={photo.src}
-                    alt={photo.alt}
+                    alt={getAlt(photo.altKey)}
                     className="w-full h-full object-cover rounded-lg"
                     style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
+                    loading={i === 0 ? 'eager' : 'lazy'}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {photo.alt}
+                      {getAlt(photo.altKey)}
                     </p>
                   </div>
                 </div>
@@ -95,7 +99,7 @@ export default function Gallery() {
 
             <div className="flex justify-center mt-6 gap-4 items-center">
               <a
-                href="https://maps.app.goo.gl/TsdNUw3G48CYrkF26"
+                href="https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"
@@ -136,7 +140,7 @@ export default function Gallery() {
 
           <img
             src={photos[currentIndex].src}
-            alt={photos[currentIndex].alt}
+            alt={getAlt(photos[currentIndex].altKey)}
             className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
             onClick={(e) => e.stopPropagation()}
           />
@@ -152,7 +156,7 @@ export default function Gallery() {
           </button>
 
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
-            {currentIndex + 1} / {photos.length}
+            {currentIndex + 1} / {photos.length} — {getAlt(photos[currentIndex].altKey)}
           </div>
         </div>
       )}

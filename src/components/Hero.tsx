@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 
 export default function Hero() {
@@ -5,17 +7,17 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
-      {/* Background image */}
       <div className="absolute inset-0">
         <img
           src="/gallery/images (1).jpg"
-          alt="Rubjerg Knude"
+          alt="Zemun City Park - Main view in Belgrade, Serbia"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
         <div className="max-w-3xl">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 animate-fade-in-up">
@@ -25,7 +27,6 @@ export default function Hero() {
             {t('subtitle')}
           </p>
 
-          {/* Meta row */}
           <div className="flex flex-wrap items-center gap-4 mb-8 animate-fade-in-up animation-delay-200">
             <div className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0b429" stroke="none">
@@ -57,7 +58,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" opacity="0.5">
           <polyline points="6 9 12 15 18 9"/>

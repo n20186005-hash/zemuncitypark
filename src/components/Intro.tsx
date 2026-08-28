@@ -1,7 +1,10 @@
+'use client';
+
 import { useTranslations, useMessages } from 'next-intl';
 
 export default function Intro() {
   const t = useTranslations('intro');
+  const tEntity = useTranslations('entity');
   const tOff = useTranslations('officialManagement');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
@@ -10,6 +13,32 @@ export default function Intro() {
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
+        <div
+          className="text-sm mb-6 p-3 rounded-lg border border-dashed"
+          style={{
+            color: 'var(--text-muted)',
+            borderColor: 'var(--accent)',
+            background: 'var(--bg-tertiary)',
+            fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace',
+          }}
+        >
+          {tEntity('breadcrumbs')}
+        </div>
+
+        <div
+          className="mb-8 p-5 rounded-xl border-l-4"
+          style={{
+            background: 'var(--bg-tertiary)',
+            borderColor: 'var(--accent)',
+          }}
+        >
+          <p
+            className="text-lg leading-relaxed"
+            style={{ color: 'var(--text-secondary)' }}
+            dangerouslySetInnerHTML={{ __html: tEntity('firstParagraph') }}
+          />
+        </div>
+
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}
@@ -19,11 +48,25 @@ export default function Intro() {
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
         <p
-          className="text-lg leading-relaxed mb-12"
+          className="text-lg leading-relaxed mb-12 whitespace-pre-wrap"
           style={{ color: 'var(--text-secondary)' }}
         >
           {t('description')}
         </p>
+
+        <div
+          className="mb-12 p-5 rounded-xl border border-dashed"
+          style={{
+            borderColor: 'var(--border-color)',
+            background: 'var(--bg-tertiary)',
+          }}
+        >
+          <p
+            className="text-base leading-relaxed"
+            style={{ color: 'var(--text-secondary)' }}
+            dangerouslySetInnerHTML={{ __html: tEntity('nearbyCluster') }}
+          />
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div
