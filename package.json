@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "next build && wrangler pages deploy out --project-name zemun-city-park",
-    "deploy": "wrangler pages deploy out --project-name zemun-city-park",
+    "build:cf": "next build && wrangler deploy",
+    "deploy": "wrangler deploy",
     "start": "next start",
     "lint": "next lint"
   },
