@@ -13,6 +13,8 @@ import HotelsSection from '@/components/HotelsSection';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
+import TopicLinks from '@/components/TopicLinks';
+import SourcesSection from '@/components/SourcesSection';
 import Footer from '@/components/Footer';
 
 export default async function HomePage({
@@ -40,6 +42,8 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <MapEmbed />
+        <TopicLinks />
+        <SourcesSection />
       </main>
       <Footer />
     </>

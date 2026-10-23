@@ -1,10 +1,15 @@
-import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
+import { useTranslations, useLocale, useMessages } from 'next-intl';
+import { TOPICS, topicPath } from '@/lib/topics';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-  const prefix = locale === 'zh' ? '' : `/${locale}`;
+  const messages = useMessages() as any;
+  const prefix = `/${locale}`;
+  const topics = messages?.topics as Record<string, { card: string }> | undefined;
+  const topicLinks = topics
+    ? TOPICS.filter((topic) => topic.slugs[locale as 'sr' | 'en'])
+    : [];
 
   return (
     <footer
@@ -42,6 +47,16 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
+            {topicLinks.map((topic) => (
+              <a
+                key={topic.key}
+                href={topicPath(locale as 'sr' | 'zh' | 'en', topic.key)}
+                style={{ color: 'var(--text-secondary)' }}
+                className="hover:underline"
+              >
+                {topics![topic.key].card}
+              </a>
+            ))}
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
               {t('privacy')}
             </a>

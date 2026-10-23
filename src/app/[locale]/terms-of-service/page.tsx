@@ -8,18 +8,20 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://zemuncitypark.com';
-  const zhUrl = `${baseUrl}/terms-of-service`;
+  const baseUrl = 'https://www.zemuncitypark.com';
+  const srUrl = `${baseUrl}/terms-of-service`;
+  const zhUrl = `${baseUrl}/zh/terms-of-service`;
   const enUrl = `${baseUrl}/en/terms-of-service`;
-  const selfUrl = locale === 'zh' ? zhUrl : enUrl;
+  const selfUrl = locale === 'sr' ? srUrl : locale === 'zh' ? zhUrl : enUrl;
 
   return {
     alternates: {
       canonical: selfUrl,
       languages: {
+        'sr': srUrl,
         'zh': zhUrl,
         'en': enUrl,
-        'x-default': zhUrl,
+        'x-default': srUrl,
       },
     },
   };
@@ -30,7 +32,7 @@ function TermsContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'it' ? '/' : `/${locale}`;
+  const homeHref = `/${locale}`;
   const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (

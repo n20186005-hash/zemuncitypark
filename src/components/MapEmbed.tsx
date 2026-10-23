@@ -9,7 +9,6 @@ const GOVT_TOURISM_URL = 'https://www.tob.rs/';
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
   const tFooter = useTranslations('footer');
-  const tRec = useTranslations('recommendations');
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>

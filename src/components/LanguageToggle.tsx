@@ -3,6 +3,7 @@
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { routing, type Locale } from '@/i18n/routing';
+import { getTopicBySlug } from '@/lib/topics';
 import { useState, useRef, useEffect } from 'react';
 
 const labels: Record<string, string> = {
@@ -30,26 +31,29 @@ export default function LanguageToggle() {
 
   function switchLocale(next: Locale) {
     setOpen(false);
-    
+
     // 如果当前已经在目标语言，不执行任何操作
     if (next === locale) return;
 
     const segments = pathname.split('/').filter(Boolean);
-    
-    // Remove current locale prefix if present
-    if (routing.locales.includes(segments[0] as Locale)) {
-      segments.shift();
+
+    // 判断当前路径是否带语言前缀（所有语言均带前缀：/sr /zh /en）
+    const currentLocale: Locale = routing.locales.includes(segments[0] as Locale)
+      ? (segments.shift() as Locale)
+      : routing.defaultLocale;
+    const rest = segments.length > 0 ? `/${segments.join('/')}` : '/';
+
+    // 专题页：切换到目标语言的对应 slug（各语言 slug 不同）
+    const topic = rest !== '/' ? getTopicBySlug(currentLocale, rest) : undefined;
+    const targetSlug = topic?.slugs[next as 'sr' | 'en'];
+
+    if (targetSlug) {
+      router.push(`/${next}/${targetSlug}`);
+      return;
     }
-    
-    // Construct new path
-    const pathWithoutLocale = segments.length > 0 ? `/${segments.join('/')}` : '/';
-    
-    // Navigate
-    if (next === routing.defaultLocale) {
-      router.push(pathWithoutLocale);
-    } else {
-      router.push(`/${next}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`);
-    }
+
+    // 常规页面：保持路径，仅切换语言前缀
+    router.push(`/${next}${rest === '/' ? '' : rest}`);
   }
 
   return (

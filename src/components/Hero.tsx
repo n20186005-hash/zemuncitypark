@@ -23,8 +23,12 @@ export default function Hero() {
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 animate-fade-in-up">
             {t('title')}
           </h1>
-          <p className="text-lg sm:text-xl text-white/80 mb-8 animate-fade-in-up animation-delay-100 font-light">
+          <p className="text-lg sm:text-xl text-white/80 mb-6 animate-fade-in-up animation-delay-100 font-light">
             {t('subtitle')}
+          </p>
+
+          <p className="text-base sm:text-lg text-white/90 mb-8 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-150">
+            {t('lead')}
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mb-8 animate-fade-in-up animation-delay-200">
