@@ -28,6 +28,20 @@ const checks = [
       'BreadcrumbList',
       'TouristAttraction',
       'WebSite',
+      'href="/en/zemun-market-zemunska-pijaca"',
+      'href="/en/zemun-one-day-itinerary"',
+      'href="/en/where-to-eat-in-zemun"',
+      'href="/en/getting-to-zemun-from-airport-or-downtown"',
+      'href="/en/zemun-city-park-accessibility"',
+      'href="/en/zemun-travel-faq"',
+      'href="/en/zemun-in-autumn-and-spring"',
+      'href="/en/zemun-in-summer"',
+      'href="/en/zemun-in-winter"',
+      'href="/en/parking-near-zemun-city-park"',
+      'href="/en/zemun-city-park-map"',
+      'href="/en/zemun-with-kids-and-dogs"',
+      'href="/en/zemun-in-spring"',
+      'href="/en/zemun-in-autumn"',
     ],
     notExpect: ['Europe&#x27;s most famous', 'Ming Z.', 'Hua L.', 'Fang W.', 'Wei C.', '6,305', '08:00 - 18:00', '15, 84, 704, 706, or 707', 'telephone', 'https://zemuncitypark.com/en'],
   },
@@ -138,6 +152,238 @@ const checks = [
   {
     file: 'sr/fotografisanje-i-godisnja-doba.html',
     expect: ['Најбоље време и фотографије у Градском парку у Земуну', 'rel="canonical" href="https://www.zemuncitypark.com/sr/fotografisanje-i-godisnja-doba"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-market-zemunska-pijaca.html',
+    expect: [
+      'Zemun Market: Fresh Food, Fish &amp; the Everyday Heart of Zemun',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-market-zemunska-pijaca"',
+      'Zemunska pijaca',
+      'FAQPage',
+      'BreadcrumbList',
+      'WebPage',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemunska-pijaca.html',
+    expect: ['Земунска пијаца: свежа храна, риба и свакодневно срце Земуна', 'rel="canonical" href="https://www.zemuncitypark.com/sr/zemunska-pijaca"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-one-day-itinerary.html',
+    expect: [
+      'Zemun in One Day: A Relaxed Walking Plan',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-one-day-itinerary"',
+      'Gardoš Tower',
+      'FAQPage',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-u-jednom-danu.html',
+    expect: ['Земун у једном дану: опуштен план шетње', 'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-u-jednom-danu"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/where-to-eat-in-zemun.html',
+    expect: [
+      'Where to Eat in Zemun (Without the Hype)',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/where-to-eat-in-zemun"',
+      'Zemunski kej',
+      'FAQPage',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/gde-jesti-u-zemu.html',
+    expect: ['Где јести у Земуну: искрено и без рекламе', 'rel="canonical" href="https://www.zemuncitypark.com/sr/gde-jesti-u-zemu"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/getting-to-zemun-from-airport-or-downtown.html',
+    expect: [
+      'Getting to Zemun from the Airport or Downtown',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/getting-to-zemun-from-airport-or-downtown"',
+      'Nikola Tesla Airport',
+      'FAQPage',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/kako-doci-u-zemun-sa-aerodroma-ili-iz-centra.html',
+    expect: ['Како доћи у Земун са аеродрома или из центра', 'rel="canonical" href="https://www.zemuncitypark.com/sr/kako-doci-u-zemun-sa-aerodroma-ili-iz-centra"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-city-park-accessibility.html',
+    expect: [
+      'Accessibility in Zemun City Park &amp; Nearby',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-city-park-accessibility"',
+      'Gardoš',
+      'FAQPage',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/pristupacnost-gradskog-parka-u-zemu.html',
+    expect: ['Приступачност у Градском парку у Земуну и околини', 'rel="canonical" href="https://www.zemuncitypark.com/sr/pristupacnost-gradskog-parka-u-zemu"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-travel-faq.html',
+    expect: [
+      'Zemun Travel FAQ',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-travel-faq"',
+      'FAQPage',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-cesta-pitanja-za-posetioce.html',
+    expect: ['Земун: честа питања за посетиоце', 'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-cesta-pitanja-za-posetioce"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-in-autumn-and-spring.html',
+    expect: [
+      'Zemun in Autumn &amp; Spring',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-in-autumn-and-spring"',
+      'shoulder seasons',
+      'FAQPage',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-u-jesen-i-prolece.html',
+    expect: ['Земун у јесен и пролеће', 'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-u-jesen-i-prolece"'],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-in-summer.html',
+    expect: [
+      'Zemun in Summer',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-in-summer"',
+      'FAQPage',
+      'plane trees',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-leto.html',
+    expect: [
+      'Земун лети',
+      'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-leto"',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-in-winter.html',
+    expect: [
+      'Zemun in Winter',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-in-winter"',
+      'FAQPage',
+      'Julian calendar',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-zima.html',
+    expect: [
+      'Земун зими',
+      'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-zima"',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'en/parking-near-zemun-city-park.html',
+    expect: [
+      'Parking Near Zemun City Park',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/parking-near-zemun-city-park"',
+      'FAQPage',
+      'GSP Beograd',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/parking-kod-gradskog-parka.html',
+    expect: [
+      'Паркинг код Градског парка у Земуну',
+      'rel="canonical" href="https://www.zemuncitypark.com/sr/parking-kod-gradskog-parka"',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-city-park-map.html',
+    expect: [
+      'Zemun City Park: Map',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-city-park-map"',
+      'FAQPage',
+      'RCR5+7F',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/mapa-gradskog-parka.html',
+    expect: [
+      'Градски парк у Земуну: мапа',
+      'rel="canonical" href="https://www.zemuncitypark.com/sr/mapa-gradskog-parka"',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-with-kids-and-dogs.html',
+    expect: [
+      'Zemun City Park with Kids',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-with-kids-and-dogs"',
+      'FAQPage',
+      'pushchairs',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-sa-decom-i-psima.html',
+    expect: [
+      'Градски парк у Земуну са децом',
+      'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-sa-decom-i-psima"',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-in-spring.html',
+    expect: [
+      'Zemun in Spring',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-in-spring"',
+      'FAQPage',
+      'plane trees',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-prolece.html',
+    expect: [
+      'Земун у пролеће',
+      'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-prolece"',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'en/zemun-in-autumn.html',
+    expect: [
+      'Zemun in Autumn',
+      'rel="canonical" href="https://www.zemuncitypark.com/en/zemun-in-autumn"',
+      'FAQPage',
+      'ginkgo',
+    ],
+    notExpect: [],
+  },
+  {
+    file: 'sr/zemun-jesen.html',
+    expect: [
+      'Земун у јесен',
+      'rel="canonical" href="https://www.zemuncitypark.com/sr/zemun-jesen"',
+    ],
     notExpect: [],
   },
   {

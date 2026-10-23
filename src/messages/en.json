@@ -329,11 +329,31 @@
     "title": "Sources & How This Guide Was Checked",
     "intro": "This is an independent, unofficial travel guide. The facts on this page were last checked in October 2026 against the public sources listed here. Where information could not be verified — church interior hours, current bus line numbers, exact building dates — we say so instead of guessing.",
     "items": [
-      { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "history of Zemun and the Kontumac quarantine grounds" },
-      { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "park management: facilities inside the park" },
-      { "name": "Tourism Organization of Belgrade", "url": "https://www.tob.rs/", "note": "visitor information for Zemun" },
-      { "name": "GSP Beograd — public transport", "url": "https://www.gsp.rs/", "note": "official bus lines and timetables" },
-      { "name": "Google Maps listing", "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8", "note": "rating snapshot: 4.7 / 5 from 6,362 reviews (October 2026)" }
+      {
+        "name": "City of Belgrade — official portal",
+        "url": "https://www.beograd.rs/",
+        "note": "history of Zemun and the Kontumac quarantine grounds"
+      },
+      {
+        "name": "Beogradski park — Zemun city park",
+        "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+        "note": "park management: facilities inside the park"
+      },
+      {
+        "name": "Tourism Organization of Belgrade",
+        "url": "https://www.tob.rs/",
+        "note": "visitor information for Zemun"
+      },
+      {
+        "name": "GSP Beograd — public transport",
+        "url": "https://www.gsp.rs/",
+        "note": "official bus lines and timetables"
+      },
+      {
+        "name": "Google Maps listing",
+        "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+        "note": "rating snapshot: 4.7 / 5 from 6,362 reviews (October 2026)"
+      }
     ],
     "outro": "Spotted an error or an out-of-date detail? Corrections are welcome — this guide is maintained independently of the park management."
   },
@@ -387,18 +407,73 @@
         }
       ],
       "faq": [
-        { "q": "Is Zemun City Park free?", "a": "Yes. It is a public park with no entrance fee and no gate; you can walk in at any hour." },
-        { "q": "How long does a visit take?", "a": "30–45 minutes for the park itself. Allow half a day if you continue to Gardoš Tower, the old town and the Danube promenade." },
-        { "q": "What is the park famous for?", "a": "Two churches of different denominations standing side by side on the former quarantine grounds, plus Roman sarcophagi and the Lamartine memorial column." },
-        { "q": "Can I go inside the churches?", "a": "Sometimes. Interior access follows the religious services and is not published in advance — check locally on the day. The exteriors can be admired at any time." },
-        { "q": "Is the park suitable for children?", "a": "Yes — flat paths, open lawns and a small playground." },
-        { "q": "Is it accessible for wheelchairs?", "a": "Paths are mostly level, but surfaces mix older paving and gravel, so we cannot promise full accessibility — check current conditions on site." }
+        {
+          "q": "Is Zemun City Park free?",
+          "a": "Yes. It is a public park with no entrance fee and no gate; you can walk in at any hour."
+        },
+        {
+          "q": "How long does a visit take?",
+          "a": "30–45 minutes for the park itself. Allow half a day if you continue to Gardoš Tower, the old town and the Danube promenade."
+        },
+        {
+          "q": "What is the park famous for?",
+          "a": "Two churches of different denominations standing side by side on the former quarantine grounds, plus Roman sarcophagi and the Lamartine memorial column."
+        },
+        {
+          "q": "Can I go inside the churches?",
+          "a": "Sometimes. Interior access follows the religious services and is not published in advance — check locally on the day. The exteriors can be admired at any time."
+        },
+        {
+          "q": "Is the park suitable for children?",
+          "a": "Yes — flat paths, open lawns and a small playground."
+        },
+        {
+          "q": "Is it accessible for wheelchairs?",
+          "a": "Paths are mostly level, but surfaces mix older paving and gravel, so we cannot promise full accessibility — check current conditions on site."
+        }
       ],
-      "related": ["transport", "history", "churches", "sarcophagi", "halfDay", "oldTown", "promenade", "gardos", "near", "photo"],
+      "related": [
+        "transport",
+        "history",
+        "churches",
+        "sarcophagi",
+        "halfDay",
+        "oldTown",
+        "promenade",
+        "gardos",
+        "near",
+        "photo",
+        "market",
+        "oneDay",
+        "dining",
+        "gettingHere",
+        "accessibility",
+        "faq",
+        "seasons",
+        "summer",
+        "winter",
+        "parking",
+        "map",
+        "kidsDogs",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "facilities inside the park" },
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "history of the site" },
-        { "name": "Google Maps listing", "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8", "note": "rating snapshot (October 2026)" }
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "facilities inside the park"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "history of the site"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
       ]
     },
     "gardos": {
@@ -437,17 +512,56 @@
         }
       ],
       "faq": [
-        { "q": "Is there an entry fee?", "a": "We couldn't verify a current ticket price; check with the on-site attendant or the local tourist info when you arrive." },
-        { "q": "How long is the climb from the park?", "a": "About 10–15 minutes on foot, with a short cobbled climb near the top." },
-        { "q": "Can you see the Danube from the tower?", "a": "Yes — the open top gives a wide view over the Danube and old Zemun." },
-        { "q": "Is the tower wheelchair accessible?", "a": "The approach is on cobbled, sloping streets and then stairs inside the tower, so it is not step-free." },
-        { "q": "What else is on Gardoš hill?", "a": "The small Orthodox Church of St Michael, cafés and the old lanes of the Gardoš neighbourhood." }
+        {
+          "q": "Is there an entry fee?",
+          "a": "We couldn't verify a current ticket price; check with the on-site attendant or the local tourist info when you arrive."
+        },
+        {
+          "q": "How long is the climb from the park?",
+          "a": "About 10–15 minutes on foot, with a short cobbled climb near the top."
+        },
+        {
+          "q": "Can you see the Danube from the tower?",
+          "a": "Yes — the open top gives a wide view over the Danube and old Zemun."
+        },
+        {
+          "q": "Is the tower wheelchair accessible?",
+          "a": "The approach is on cobbled, sloping streets and then stairs inside the tower, so it is not step-free."
+        },
+        {
+          "q": "What else is on Gardoš hill?",
+          "a": "The small Orthodox Church of St Michael, cafés and the old lanes of the Gardoš neighbourhood."
+        }
       ],
-      "related": ["guide", "oldTown", "halfDay", "promenade"],
+      "related": [
+        "guide",
+        "oldTown",
+        "halfDay",
+        "promenade",
+        "accessibility",
+        "seasons",
+        "map",
+        "summer",
+        "winter",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "Gardoš and the Millennium Monument" },
-        { "name": "Tourist Organization of Belgrade", "url": "https://www.tob.rs/", "note": "Zemun visitor information" },
-        { "name": "Google Maps listing", "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8", "note": "rating snapshot (October 2026)" }
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "Gardoš and the Millennium Monument"
+        },
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemun visitor information"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
       ]
     },
     "near": {
@@ -491,15 +605,51 @@
         }
       ],
       "faq": [
-        { "q": "How much time for the park and surroundings?", "a": "A relaxed half day covers the park, the old town, Gardoš and the promenade." },
-        { "q": "Is everything walkable?", "a": "Yes — within about 15 minutes of the park; the only real climb is up to Gardoš." },
-        { "q": "Where to eat near the park?", "a": "Around Zemunska pijaca and the old town you'll find bakeries, cafés and sit-down restaurants; the kej has riverside fish restaurants." },
-        { "q": "Can I do this with children?", "a": "Yes — distances are short, the park has a small playground, and the promenade is flat and stroller-friendly." }
+        {
+          "q": "How much time for the park and surroundings?",
+          "a": "A relaxed half day covers the park, the old town, Gardoš and the promenade."
+        },
+        {
+          "q": "Is everything walkable?",
+          "a": "Yes — within about 15 minutes of the park; the only real climb is up to Gardoš."
+        },
+        {
+          "q": "Where to eat near the park?",
+          "a": "Around Zemunska pijaca and the old town you'll find bakeries, cafés and sit-down restaurants; the kej has riverside fish restaurants."
+        },
+        {
+          "q": "Can I do this with children?",
+          "a": "Yes — distances are short, the park has a small playground, and the promenade is flat and stroller-friendly."
+        }
       ],
-      "related": ["guide", "oldTown", "gardos", "promenade", "transport"],
+      "related": [
+        "guide",
+        "oldTown",
+        "gardos",
+        "promenade",
+        "transport",
+        "gettingHere",
+        "faq",
+        "seasons",
+        "summer",
+        "winter",
+        "parking",
+        "map",
+        "kidsDogs",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "Tourist Organization of Belgrade", "url": "https://www.tob.rs/", "note": "Zemun old town and surroundings" },
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "park location in Zemun" }
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemun old town and surroundings"
+        },
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "park location in Zemun"
+        }
       ]
     },
     "photo": {
@@ -533,18 +683,1197 @@
         }
       ],
       "faq": [
-        { "q": "When is the park prettiest?", "a": "Late spring for blossom and autumn for colour; both have comfortable, soft light." },
-        { "q": "Can I photograph inside the churches?", "a": "Exteriors, yes. Inside, ask first — some Orthodox churches restrict photography." },
-        { "q": "Is the park good for a photoshoot?", "a": "It's a public neighbourhood park, so keep any setup small and unobtrusive, especially near the churches." },
-        { "q": "What time has the best light on the churches?", "a": "Late afternoon, when the low sun warms the façades; morning works too from the opposite side." }
+        {
+          "q": "When is the park prettiest?",
+          "a": "Late spring for blossom and autumn for colour; both have comfortable, soft light."
+        },
+        {
+          "q": "Can I photograph inside the churches?",
+          "a": "Exteriors, yes. Inside, ask first — some Orthodox churches restrict photography."
+        },
+        {
+          "q": "Is the park good for a photoshoot?",
+          "a": "It's a public neighbourhood park, so keep any setup small and unobtrusive, especially near the churches."
+        },
+        {
+          "q": "What time has the best light on the churches?",
+          "a": "Late afternoon, when the low sun warms the façades; morning works too from the opposite side."
+        }
       ],
-      "related": ["guide", "churches", "sarcophagi", "halfDay"],
+      "related": [
+        "guide",
+        "churches",
+        "sarcophagi",
+        "halfDay",
+        "summer",
+        "winter",
+        "map",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "layout and trees in the park" },
-        { "name": "Google Maps listing", "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8", "note": "rating snapshot (October 2026)" }
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "layout and trees in the park"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
       ]
     },
-
+    "market": {
+      "title": "Zemun Market (Zemunska pijaca): What to Buy & When to Go",
+      "description": "A plain guide to Zemun's open market — what's sold, the fish hall, the best time to go and the short walk from Zemun City Park. Independent visitor notes, not the official site.",
+      "h1": "Zemun Market: Fresh Food, Fish & the Everyday Heart of Zemun",
+      "card": "Zemun market (Zemunska pijaca)",
+      "cardDesc": "Zemun's daily open market — produce, the fish hall and the walk from the park.",
+      "lead": "Zemunska pijaca is the open market at the foot of old Zemun, a five-minute walk from Zemun City Park and the everyday heart of the neighbourhood. It is where locals shop for fruit, vegetables, fish, flowers and bread, and it is one of the easiest, most local slices of Zemun to experience between a park visit and the old town.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "what-is",
+          "title": "What the market is",
+          "body": "The pijaca is a cluster of stalls and small shops around an open square, with a covered hall for fish and meat and open-air tables for fruit, vegetables, herbs and flowers. It has run as Zemun's main market for generations, so the rhythm is local rather than tourist: mornings are busiest, and many stalls close by early afternoon."
+        },
+        {
+          "id": "what-to-buy",
+          "title": "What to buy",
+          "body": "Seasonal fruit and vegetables are the core — peppers, tomatoes, plums, grapes and stone fruit in summer, cabbage, root vegetables and greens in winter. You'll also find flowers, honey, rakija and small dairy and bakery stalls. Prices are quoted per kilogram and are generally lower than in supermarkets; a quick look at what neighbours are buying is the best guide to what's good that week."
+        },
+        {
+          "id": "fish-hall",
+          "title": "The fish hall (ribarnica)",
+          "body": "Zemun has long been associated with river fish, and the covered fish hall is the market's most distinctive corner. Fresh Danube fish — carp, catfish, pike-perch and others — is sold over ice, mostly in the morning. It is worth a look even if you're not buying, and it sits a short walk from the riverside fish restaurants on the kej."
+        },
+        {
+          "id": "from-park",
+          "title": "Walking from the park",
+          "body": "From Zemun City Park, leave towards the old town and follow the lanes down to the market square — about five minutes on the flat. The market sits on the way to both the old town and Gardoš, so it fits naturally between the park and the rest of a Zemun morning."
+        },
+        {
+          "id": "best-time",
+          "title": "Best time to go",
+          "body": "Go in the morning, roughly from opening to late morning, for the fullest choice and the liveliest atmosphere. By mid-afternoon many stalls wind down. Weekends are busier but also fuller; weekdays are calmer. There is no entry fee and nothing to book — it's a working market you simply walk around."
+        }
+      ],
+      "faq": [
+        {
+          "q": "When is the market open?",
+          "a": "It runs daily, busiest in the morning and quieter by mid-afternoon; many stalls close early. Mornings are the best bet."
+        },
+        {
+          "q": "Is there a fish market?",
+          "a": "Yes — a covered fish hall (ribarnica) sells fresh Danube fish, mostly in the morning."
+        },
+        {
+          "q": "What's worth buying?",
+          "a": "Seasonal fruit and vegetables, flowers, honey and bakery items; prices are usually lower than supermarkets."
+        },
+        {
+          "q": "How far is it from Zemun City Park?",
+          "a": "About a 5-minute flat walk towards the old town."
+        },
+        {
+          "q": "Can you eat at the market?",
+          "a": "There are bakeries and small food stalls for a quick bite, and the riverside fish restaurants on the kej are a short walk further."
+        }
+      ],
+      "related": [
+        "guide",
+        "near",
+        "oldTown",
+        "halfDay",
+        "promenade",
+        "gardos",
+        "dining",
+        "gettingHere",
+        "accessibility",
+        "faq",
+        "seasons",
+        "summer",
+        "winter",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemun old town and market"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "oneDay": {
+      "title": "Zemun in One Day: A Simple Walking Itinerary",
+      "description": "A relaxed, walkable one-day plan for Zemun — the park, the old town, Gardoš Tower, the Danube promenade and where to eat, in a sensible order. Independent notes, not an official tour.",
+      "h1": "Zemun in One Day: A Relaxed Walking Plan",
+      "card": "Zemun in one day",
+      "cardDesc": "A simple order for the park, old town, Gardoš, the kej and a meal.",
+      "lead": "Zemun is compact enough to enjoy in a single, unhurried day. This page is a plain walking plan in a sensible order — start at the park, drift through the old town and market, climb to Gardoš Tower for the view, then finish on the Danube promenade. Swap pieces around as you like; nothing here needs to be booked in advance.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "morning",
+          "title": "Morning: the park and its churches",
+          "body": "Begin at Zemun City Park. Walk the shaded avenues, see the two churches on the central lawn (the Orthodox Church of St Archangel Gabriel and the Catholic Church of St Roch), the Roman sarcophagi and the Lamartine column. An hour is enough for a relaxed look, and the shade makes it pleasant even in summer."
+        },
+        {
+          "id": "mid-morning",
+          "title": "Mid-morning: market and old town",
+          "body": "From the park, walk five minutes to Zemunska pijaca, browse the stalls and the fish hall, then wander the low streets of the old town — Gardoška and the lanes around the square. This is the most local part of Zemun and easy to explore without a plan."
+        },
+        {
+          "id": "lunch",
+          "title": "Lunch",
+          "body": "Eat in the old town or by the river. The kej has riverside fish restaurants; the old town and market area have bakeries, kafanas and sit-down spots. See the dining guide for the areas and types of food rather than specific names."
+        },
+        {
+          "id": "afternoon",
+          "title": "Afternoon: Gardoš Tower",
+          "body": "After lunch, climb to Gardoš Tower (the Millennium Tower) — about 10–15 minutes on foot with a short cobbled rise. Go for the wide view over the Danube and old Zemun. Allow time to linger in the quiet Gardoš lanes before descending."
+        },
+        {
+          "id": "late-afternoon",
+          "title": "Late afternoon: the Danube promenade",
+          "body": "End on the kej. The promenade is flat and easy, with benches, cafés and a view across to Great War Island. It faces the sunset over the river, which is the natural highlight to close the day."
+        },
+        {
+          "id": "practical",
+          "title": "Practical notes",
+          "body": "Everything is within about a 15-minute walk of the park except the climb to Gardoš. Wear comfortable shoes, carry water in summer, and keep the midday sun in mind — the park and old town shade help, but the tower climb is open. The whole loop is roughly a half to full day at an easy pace."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much time do I need for Zemun?",
+          "a": "A relaxed half day covers the essentials; a full day lets you add a long lunch and more time on the kej."
+        },
+        {
+          "q": "Is it all walkable?",
+          "a": "Yes — the park, market, old town and promenade are flat and close; only Gardoš involves a short climb."
+        },
+        {
+          "q": "Where should I start?",
+          "a": "At Zemun City Park, then drift toward the market and old town, climb to Gardoš, and finish on the Danube promenade."
+        },
+        {
+          "q": "Can I combine Zemun with central Belgrade?",
+          "a": "Yes — Zemun is a short bus or taxi ride from the centre, so a morning in Zemun and an afternoon in Belgrade works well."
+        }
+      ],
+      "related": [
+        "guide",
+        "halfDay",
+        "oldTown",
+        "gardos",
+        "promenade",
+        "market",
+        "dining",
+        "near"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemun visitor information"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "Zemun and the Danube waterfront"
+        }
+      ]
+    },
+    "dining": {
+      "title": "Where to Eat in Zemun: Fish, Bakeries & Kafanas",
+      "description": "An honest, area-by-area guide to eating in Zemun — riverside fish restaurants, old-town kafanas, market snacks and coffee — without naming specific businesses. Independent visitor notes.",
+      "h1": "Where to Eat in Zemun (Without the Hype)",
+      "card": "Where to eat in Zemun",
+      "cardDesc": "By the river, in the old town, at the market — the areas and types of food.",
+      "lead": "Zemun eats in a few distinct clusters, and knowing the clusters is more useful than a single restaurant name. This page covers where the food areas are, what each is known for, and a few practical notes on price and timing — written for visitors, not as an official guide.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "by-the-river",
+          "title": "By the river (the kej)",
+          "body": "The Danube promenade (Zemunski kej) is Zemun's best-known eating strip: a row of restaurants specialising in fresh river fish and grilled meat, with outdoor seating and a view across to Great War Island. It suits a longer lunch or a sunset dinner. It is about 10–15 minutes' walk from the park and the gentlest walk of the three areas."
+        },
+        {
+          "id": "old-town",
+          "title": "Old town kafanas",
+          "body": "The streets around the old town and Zemunska pijaca hold the traditional kafanas — modest, long-running taverns serving grilled dishes, soups and local classics — alongside newer cafés and bistros. This is where you'll find everyday Zemun food at everyday prices, a short walk from the park."
+        },
+        {
+          "id": "market-and-bakery",
+          "title": "Market and bakeries",
+          "body": "For a quick bite, the market and its surroundings are best: bakeries (pekara) for burek and pastries, small stalls for fruit and snacks, and casual spots for coffee. Cheap, fast and very local — good for breakfast or a pause between sights."
+        },
+        {
+          "id": "coffee-dessert",
+          "title": "Coffee and dessert",
+          "body": "Zemun does café culture well. The old town, the market square and the kej all have cafés for an espresso or a slice of cake; a coffee on a shaded old-town terrace is a small, easy pleasure between walking legs."
+        },
+        {
+          "id": "practical",
+          "title": "Practical notes",
+          "body": "Riverside fish restaurants are the pricier end; old-town kafanas and bakeries are the budget end. In summer, terraces fill early, so a lunch reservation or an early dinner helps on weekends. Menus are usually Serbian with English often available; tap water is standard at the table. We don't name specific places — the clusters above are the reliable shortcut."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where's the best area for fish?",
+          "a": "The Danube promenade (kej), which specialises in fresh river fish with a riverside view."
+        },
+        {
+          "q": "Where can I eat cheaply?",
+          "a": "Bakeries and market stalls for snacks; old-town kafanas for an inexpensive sit-down meal."
+        },
+        {
+          "q": "Are there vegetarian options?",
+          "a": "Yes — salads, grilled vegetables, pies and dips appear on most menus, though river-fish and grilled-meat places are the focus."
+        },
+        {
+          "q": "Do I need a reservation?",
+          "a": "For riverside restaurants on weekends and warm evenings, an early booking or early arrival helps; cafés and kafanas are usually walk-in."
+        },
+        {
+          "q": "Is it family-friendly?",
+          "a": "Yes — the kej and old town are flat and relaxed, with simple food most children will eat."
+        }
+      ],
+      "related": [
+        "near",
+        "market",
+        "oldTown",
+        "promenade",
+        "guide",
+        "summer",
+        "winter",
+        "kidsDogs",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemun dining and the kej"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "gettingHere": {
+      "title": "Getting to Zemun from the Airport or Downtown Belgrade",
+      "description": "Plain, independent directions for reaching Zemun and Zemun City Park from Nikola Tesla Airport and central Belgrade — by bus, taxi and on foot, with what to expect. Not the official site.",
+      "h1": "Getting to Zemun from the Airport or Downtown",
+      "card": "Getting to Zemun (airport & downtown)",
+      "cardDesc": "Reaching Zemun and the park from Nikola Tesla Airport and central Belgrade.",
+      "lead": "Zemun sits on the right bank of the Danube, northwest of central Belgrade and close to Nikola Tesla Airport. This page is a plain set of directions for getting there without a tour — by public transport, taxi or ride app — plus the short hop from the centre. Nothing here is booked in advance; think of it as a visitor's notes, not the official site.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "from-airport",
+          "title": "From Nikola Tesla Airport (BEG)",
+          "body": "Nikola Tesla Airport (Aerodrom Nikola Tesla Beograd) is west of the city, roughly 15 to 20 km from Zemun. Options include a taxi or ride app (agree a fare or use the meter or app; allow 20 to 40 minutes with traffic), or the airport shuttle or minibus toward the city and then a connection on to Zemun. For current routes, fares and timetables, check the airport's official site and the city transport portal before you travel — we don't name a single 'correct' bus because services change."
+        },
+        {
+          "id": "from-downtown",
+          "title": "From central Belgrade",
+          "body": "Zemun is next to the city centre, separated by the Sava and Danube rivers. From downtown you can take a city bus or tram toward Zemun, a taxi or ride app (roughly 15 to 30 minutes), or, in good weather, a long scenic walk along the rivers is possible but impractical for most. The main landmark is Zemun City Park, a short walk from the old town, the market and the kej."
+        },
+        {
+          "id": "to-the-park",
+          "title": "The last stretch to the park",
+          "body": "Once in Zemun, the park, the old town, Zemunska pijaca and the Danube promenade are all within about a 5 to 15 minute walk of each other on mostly flat ground. See the dedicated transport page for the exact approach to the park gates."
+        },
+        {
+          "id": "practical",
+          "title": "Practical notes",
+          "body": "Keep small change or a card for tickets; ride apps are widely used; traffic peaks at rush hour. If you're staying central, many visitors combine a morning in Zemun with an afternoon in Belgrade's centre, since they're a short ride apart."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How far is Zemun from the airport?",
+          "a": "Nikola Tesla Airport is roughly 15 to 20 km west of Zemun; allow 20 to 40 minutes by taxi depending on traffic."
+        },
+        {
+          "q": "Can I use public transport from the airport?",
+          "a": "Yes — there is an airport shuttle or minibus toward the city plus taxis and ride apps; check the airport's official site for current routes and fares before you travel."
+        },
+        {
+          "q": "How do I get from downtown Belgrade to Zemun?",
+          "a": "By city bus or tram, taxi, or ride app — roughly 15 to 30 minutes. They sit next to each other across the rivers."
+        },
+        {
+          "q": "Is Zemun walkable once I arrive?",
+          "a": "Yes — the park, old town, market and kej are all within a 5 to 15 minute walk on mostly flat ground."
+        },
+        {
+          "q": "Should I book transport in advance?",
+          "a": "Not usually; taxis and ride apps are easy to get, and public options run regularly."
+        }
+      ],
+      "related": [
+        "guide",
+        "transport",
+        "near",
+        "halfDay",
+        "oldTown",
+        "oneDay",
+        "dining",
+        "faq",
+        "parking",
+        "map",
+        "summer",
+        "winter",
+        "spring",
+        "autumn",
+        "kidsDogs"
+      ],
+      "sources": [
+        {
+          "name": "Belgrade Nikola Tesla Airport (official)",
+          "url": "https://www.beg.aero/",
+          "note": "routes, fares and timetables"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "public transport"
+        }
+      ]
+    },
+    "accessibility": {
+      "title": "Zemun City Park Accessibility: Steps, Paths & What to Expect",
+      "description": "An honest, practical look at accessibility in Zemun City Park and nearby Zemun — flat paths, the Gardoš hill, the promenade and where steps appear. Independent visitor notes.",
+      "h1": "Accessibility in Zemun City Park & Nearby",
+      "card": "Accessibility in Zemun",
+      "cardDesc": "Flat park paths, the Gardoš hill, the kej and where to expect steps.",
+      "lead": "Most of a Zemun visit is flat and easy, but one famous viewpoint involves a climb. This page is a plain, honest rundown of where the ground is smooth and where steps appear — the park, the old town, the Danube promenade and the Gardoš hill — so you can plan a route that suits you.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "park",
+          "title": "The park itself",
+          "body": "The park is mostly level with paved and gravelled lanes, benches throughout and open lawns. The central paths are step-free and suit wheelchairs, prams and limited mobility. Some side paths are gravelled or uneven; the main avenues are the smoothest."
+        },
+        {
+          "id": "old-town",
+          "title": "Old town & market",
+          "body": "The streets around the old town and Zemunska pijaca are flat but a mix of pavement and older cobbles; the market square is step-free. Cafés and shops generally have a step at the door, which varies by venue."
+        },
+        {
+          "id": "promenade",
+          "title": "The Danube promenade (kej)",
+          "body": "The kej is flat, paved and step-free along its length, with benches and open space — the easiest riverside stretch for wheelchairs and prams."
+        },
+        {
+          "id": "gardos",
+          "title": "Gardoš hill",
+          "body": "This is the one to plan for: Gardoš is a hill with cobbled, sloping lanes and the tower is reached by steps, with a narrow interior and no lift. Visitors with limited mobility can enjoy the lower Gardoš lanes and the view from below, but the tower top is not step-free."
+        },
+        {
+          "id": "practical",
+          "title": "Practical notes",
+          "body": "To avoid the climb, base your walk on the park, old town and kej. Public transport and taxis reach Zemun's flat core; tell a driver to drop you near the park or the kej. We can't guarantee any specific venue's access — call ahead for restaurants and hotels."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Zemun City Park wheelchair accessible?",
+          "a": "The main paths are flat, paved and step-free; some side lanes are gravelled. The central avenues suit wheelchairs and prams."
+        },
+        {
+          "q": "Is the Gardoš Tower accessible?",
+          "a": "Not fully — it sits on a cobbled hill reached by steps, and the tower interior has no lift. The lower lanes and the view from below are accessible."
+        },
+        {
+          "q": "Is the Danube promenade step-free?",
+          "a": "Yes — the kej is flat, paved and step-free along its length, the easiest stretch for wheelchairs and prams."
+        },
+        {
+          "q": "Can I visit Zemun without climbing?",
+          "a": "Yes — base your route on the park, old town and kej, all flat; skip the tower or view Gardoš from below."
+        },
+        {
+          "q": "Where should a taxi drop me?",
+          "a": "Ask for the park (Gradski park) or the kej (Zemunski kej); both sit in the flat core."
+        }
+      ],
+      "related": [
+        "guide",
+        "halfDay",
+        "oldTown",
+        "promenade",
+        "gardos",
+        "near",
+        "market",
+        "faq",
+        "parking",
+        "map",
+        "kidsDogs"
+      ],
+      "sources": [
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "Zemun and public spaces"
+        },
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "visitor accessibility information"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Zemun Travel FAQ: Hours, Tickets, Dogs & Practical Questions",
+      "description": "Straight answers to common visitor questions about Zemun City Park and Zemun — opening hours, entry fee, dogs, best time, how long to stay and getting around. Independent notes.",
+      "h1": "Zemun Travel FAQ",
+      "card": "Zemun travel FAQ",
+      "cardDesc": "Hours, tickets, dogs, best time and how long to stay in Zemun.",
+      "lead": "Quick, honest answers to the questions visitors actually ask about Zemun City Park and the surrounding neighbourhood — whether there's an entry fee, if dogs are welcome, when to go and how long to set aside. Think of it as the plain FAQ for planning a visit.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "glance",
+          "title": "At a glance",
+          "body": "The park is a public, open space with no gates or ticket office; entry is free and it stays open in daylight year-round. It sits a short walk from the old town, Zemunska pijaca and the Danube promenade."
+        },
+        {
+          "id": "good-to-know",
+          "title": "Good to know",
+          "body": "There are no shops inside the park; cafés, a bakery and the market are steps away. Toilets are found in the surrounding streets, not in the park. Wear comfortable shoes for the Gardoš climb, and bring water in summer."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is there an entry fee for Zemun City Park?",
+          "a": "No — it's a public park with no gates or ticket office; entry is free."
+        },
+        {
+          "q": "What are the opening hours?",
+          "a": "As an open public space it has no set hours; visiting in daylight is simplest. Surrounding cafés and the market keep their own hours."
+        },
+        {
+          "q": "Are dogs allowed?",
+          "a": "Yes — dogs are welcome on a lead; bring bags and keep to the paths."
+        },
+        {
+          "q": "How long should I spend in Zemun?",
+          "a": "A relaxed half day covers the park, old town and kej; a full day adds a long lunch and more time on the waterfront."
+        },
+        {
+          "q": "When is the best time to visit?",
+          "a": "Spring and autumn are mild and pleasant; summer is lively but hot at midday, winter is quiet. See the seasonal guide for detail."
+        },
+        {
+          "q": "Is Zemun good for families?",
+          "a": "Yes — the flat park and kej suit prams and children, with open space to roam."
+        }
+      ],
+      "related": [
+        "guide",
+        "transport",
+        "near",
+        "halfDay",
+        "oldTown",
+        "promenade",
+        "market",
+        "dining",
+        "oneDay",
+        "gettingHere",
+        "accessibility",
+        "seasons",
+        "summer",
+        "winter",
+        "parking",
+        "map",
+        "kidsDogs",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "visitor information"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "Zemun"
+        }
+      ]
+    },
+    "seasons": {
+      "title": "Zemun in Autumn & Spring: When to Visit for Colour & Calm",
+      "description": "A seasonal guide to Zemun City Park and the neighbourhood in autumn and spring — what the trees, the market and the Danube are like, and why these shoulder seasons suit a visit. Independent notes.",
+      "h1": "Zemun in Autumn & Spring",
+      "card": "Zemun in autumn & spring",
+      "cardDesc": "Shoulder-season colour, calmer streets and the market's shifting produce.",
+      "lead": "Zemun changes gently with the seasons, and the two shoulder seasons — spring and autumn — are the easiest, most pleasant times to visit. This page is a plain, honest look at what Zemun City Park and the neighbourhood feel like in those months, and why they suit a relaxed trip.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "spring",
+          "title": "Spring",
+          "body": "Trees in the park leaf out, the lawns green up and the old town's lanes are comfortable for slow walking. The Danube promenade is pleasant before the summer crowds, and café terraces reopen. It's a good time for photos and a long, unhurried wander."
+        },
+        {
+          "id": "autumn",
+          "title": "Autumn",
+          "body": "The park's trees turn, the light softens and the streets are calmer after the summer peak. The market shifts to autumn produce — cabbage, root vegetables and grapes into early fall. Crisp days suit the Gardoš climb and the kej at sunset."
+        },
+        {
+          "id": "market",
+          "title": "The market through the seasons",
+          "body": "Zemunska pijaca follows the calendar: stone fruit and tomatoes in late spring and summer, then grapes, cabbage and root vegetables into autumn. A stall-gazer's year, and a reason to revisit."
+        },
+        {
+          "id": "practical",
+          "title": "Practical notes",
+          "body": "Spring and autumn days are mild but changeable — a light layer helps. Both seasons avoid the summer midday heat and the deepest winter chill, so the park, old town and kej stay comfortable. For summer and winter specifics, the photographer's guide and the main guide cover what to expect."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is autumn a good time to visit Zemun?",
+          "a": "Yes — calmer streets, turning trees and soft light make it a relaxed, photogenic time."
+        },
+        {
+          "q": "What is Zemun like in spring?",
+          "a": "Green, mild and quiet before peak summer; ideal for slow walks and terrace cafés."
+        },
+        {
+          "q": "What's in season at the market?",
+          "a": "Stone fruit and tomatoes in late spring and summer; grapes, cabbage and root vegetables into autumn."
+        },
+        {
+          "q": "Are these seasons good for photos?",
+          "a": "Both are — spring greens and autumn colour, with softer light than the summer midday."
+        },
+        {
+          "q": "How do they compare with summer and winter?",
+          "a": "Shoulder seasons avoid the summer heat and winter chill; the park, old town and kej stay comfortable."
+        }
+      ],
+      "related": [
+        "guide",
+        "photo",
+        "near",
+        "market",
+        "oldTown",
+        "promenade",
+        "gardos",
+        "gettingHere",
+        "summer",
+        "winter",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "seasonal events and visitor info"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "summer": {
+      "title": "Zemun in Summer: Shade, the Promenade & How to Beat the Heat",
+      "description": "What Zemun City Park and the neighbourhood are like in summer — shade in the old garden, cooler hours by the Danube, summer produce at the market, and practical ways to stay comfortable.",
+      "h1": "Zemun in Summer",
+      "card": "Zemun in summer",
+      "cardDesc": "Shade in the old garden, cooler hours by the Danube and summer produce at the market.",
+      "lead": "Summer in Zemun is hot and bright, with long days and a slower pace in the early morning and evening. This page is a plain, honest look at what Zemun City Park and the neighbourhood feel like in the summer months, and how to enjoy them when the midday sun is strong.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "heat",
+          "title": "Heat and shade in the park",
+          "body": "The park is one of the cooler spots in Zemun at midday because of its mature plane trees, ginkgo and other old growth — but it is still open ground with little air movement. The most comfortable time to walk is early morning (before 09:00) or after 18:00, when the light is low and the lanes are in shadow. Bring water; there is no café inside the park itself."
+        },
+        {
+          "id": "kej",
+          "title": "The Danube promenade (kej)",
+          "body": "A ten-minute walk downhill brings you to Zemunski kej, the Danube promenade. In summer the river breeze makes it noticeably cooler than the streets, and the terraces fill in the evening. It is the natural place to be once the park warms up."
+        },
+        {
+          "id": "market",
+          "title": "The market in summer",
+          "body": "Zemunska pijaca peaks in summer: stone fruit, tomatoes, peppers and watermelons dominate the stalls, and fresh fish arrives from the river. Early is best for produce and for beating the heat."
+        },
+        {
+          "id": "practical",
+          "title": "Practical tips",
+          "body": "Plan outdoor time for the morning or evening, carry water, and use the shaded park benches rather than open sun. The twin churches and sarcophagi can be seen quickly; save the longer climb to Gardoš Tower for late afternoon when it is cooler. Sunscreen and a hat matter more here in July and August than in any other season."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Zemun very hot in summer?",
+          "a": "Yes — July and August are hot, often with little wind in the streets. The park's mature trees give good shade, and the Danube promenade is cooler."
+        },
+        {
+          "q": "What's the best time of day to visit?",
+          "a": "Early morning (before 09:00) or after 18:00, when the lanes are shaded and the light is soft."
+        },
+        {
+          "q": "Is the park shaded?",
+          "a": "Largely yes — mature plane trees and other old growth cover much of the central lawn, though open areas get direct sun."
+        },
+        {
+          "q": "Can you swim near Zemun?",
+          "a": "The Danube is a working river with strong currents; locals do use river beaches further along, but we don't recommend swimming without checking local conditions. The promenade is the safe place to enjoy the water."
+        },
+        {
+          "q": "What's in season at the market in summer?",
+          "a": "Stone fruit, tomatoes, peppers and watermelons are the highlights; fresh river fish also arrives at Zemunska pijaca."
+        }
+      ],
+      "related": [
+        "guide",
+        "seasons",
+        "photo",
+        "near",
+        "market",
+        "promenade",
+        "dining",
+        "winter",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "seasonal events and visitor info"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "winter": {
+      "title": "Zemun in Winter: Quiet Streets, Cold Light & the Festive Season",
+      "description": "What Zemun City Park and the neighbourhood are like in winter — bare trees, crisp light, a calmer old town, Christmas and New Year in Serbia, and how to dress for the cold.",
+      "h1": "Zemun in Winter",
+      "card": "Zemun in winter",
+      "cardDesc": "Bare trees, crisp light, a quiet old town and the Serbian festive season.",
+      "lead": "Winter in Zemun is cold and quiet. The park's trees stand bare, the streets empty out after dark, and the light over the Danube is low and clear. This page is a plain, honest look at visiting Zemun City Park in the colder months, including the Serbian Christmas and New Year period.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "light",
+          "title": "Cold light and bare trees",
+          "body": "Without leaves the park reads differently — the two churches, the sarcophagi and the garden's layout are all clearer, and low winter sun throws long shadows. Photographers often prefer this stripped-back look."
+        },
+        {
+          "id": "quiet",
+          "title": "A quieter old town",
+          "body": "Zemun is calmer in winter than in summer. The market still runs, the cafés keep their terraces with heaters, and a walk from the park to the kej is peaceful. Expect fewer tourists and more everyday neighbourhood life."
+        },
+        {
+          "id": "festive",
+          "title": "Christmas and New Year",
+          "body": "Serbia celebrates according to the Julian calendar: Orthodox Christmas falls in early January, and the New Year period (both 1 January and the Serbian New Year around 14 January) brings lights and gatherings. The market and old town take on a festive feel, though some smaller venues close on the day itself."
+        },
+        {
+          "id": "practical",
+          "title": "What to wear",
+          "body": "Dress for cold, damp days: a warm coat, hat and gloves, and shoes with grip for wet or icy cobbles on the climb to Gardoš. Midday is the pleasantest window for a walk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Zemun worth visiting in winter?",
+          "a": "Yes, if you like quiet streets, clear light and fewer crowds; the park's bare trees show off its layout and monuments."
+        },
+        {
+          "q": "Does it snow in Zemun?",
+          "a": "It can, though snow is not guaranteed most winters. Cold, damp days are more common than heavy snow."
+        },
+        {
+          "q": "When is Orthodox Christmas?",
+          "a": "Serbia uses the Julian calendar, so Orthodox Christmas is celebrated in early January, with New Year festivities around 1 and 14 January."
+        },
+        {
+          "q": "Are cafés and the market open in winter?",
+          "a": "Yes — the market runs year-round and cafés stay open with heated terraces, though some close on the holidays themselves."
+        },
+        {
+          "q": "Is the promenade nice in winter?",
+          "a": "It is quiet and crisp; wrap up, and the low winter light over the Danube is excellent for photographs."
+        }
+      ],
+      "related": [
+        "guide",
+        "seasons",
+        "photo",
+        "near",
+        "market",
+        "promenade",
+        "dining",
+        "summer",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "seasonal events and visitor info"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "parking": {
+      "title": "Parking Near Zemun City Park (Street Parking & Where to Try)",
+      "description": "How parking works around Zemun City Park — old Zemun is street parking only, limited and paid in zones, with the easiest options near the market and the school. Public transport is often simpler.",
+      "h1": "Parking Near Zemun City Park",
+      "card": "Parking near the park",
+      "cardDesc": "Old Zemun is street parking only — limited and paid in zones. Where to try, and when transit is easier.",
+      "lead": "There is no dedicated car park for Zemun City Park. Like the rest of old Zemun, the area around the park is street parking only — limited, and paid in marked zones during the day. This page explains where drivers usually look and why public transport or a short walk from a central stop is often the easier choice.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "street",
+          "title": "Street parking only",
+          "body": "The streets around the park — Nemanjina, Gardoška and the smaller lanes — are on-street parking. There is no fenced or paved lot belonging to the park. Spaces fill up on weekends and warm afternoons, so expect to circle or walk in from further out."
+        },
+        {
+          "id": "zones",
+          "title": "Paid zones",
+          "body": "Central Zemun is divided into paid parking zones; look for the marked bays and the ticket machines or the official SMS / app payment used in Belgrade. Rates and hours change, so check the signage on the day. Payment is per the city's parking system, not the park."
+        },
+        {
+          "id": "where",
+          "title": "Where drivers usually try",
+          "body": "The easiest on-street spaces are near Zemunska pijaca (the market) and along the wider streets a few minutes from the park. The area by the school and the main approaches to old Zemun also has bays, but they are popular. None are guaranteed at peak times."
+        },
+        {
+          "id": "onfoot",
+          "title": "From a central stop",
+          "body": "Buses stop within a few minutes' walk of the park near the market and the school. Arriving by bus or taxi and walking the last 3–5 minutes avoids the search for a space entirely. Use the official GSP Beograd planner for current lines."
+        },
+        {
+          "id": "practical",
+          "title": "Practical notes",
+          "body": "If you drive, give yourself extra time at weekends, watch the zone signs for hours and payment, and never block driveways or the narrow lanes. The park's flat layout makes the final walk short once you are parked."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is there a car park at Zemun City Park?",
+          "a": "No — the park has no dedicated lot. Parking is on-street only, in the surrounding old-Zemun streets."
+        },
+        {
+          "q": "Is parking paid?",
+          "a": "Central Zemun is in paid zones during the day. Check the marked bays and city signage; payment follows Belgrade's parking system."
+        },
+        {
+          "q": "Where is the easiest place to park?",
+          "a": "Near Zemunska pijaca and along the wider central streets, a few minutes' walk from the park — but spaces are limited at peak times."
+        },
+        {
+          "q": "Can I park right at the entrance?",
+          "a": "Not reliably; there is no gate and no lot, so most visitors park on a side street and walk in."
+        },
+        {
+          "q": "Is public transport easier?",
+          "a": "Often yes — buses and taxis stop close to the park, and the last few minutes are a flat, easy walk."
+        }
+      ],
+      "related": [
+        "guide",
+        "transport",
+        "gettingHere",
+        "near",
+        "accessibility",
+        "map",
+        "market",
+        "oneDay",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "GSP Beograd — public transport",
+          "url": "https://www.gsp.rs/",
+          "note": "official lines and timetables"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "city services and parking zones"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "map": {
+      "title": "Zemun City Park Map: Location, Layout & What's Where",
+      "description": "A plain orientation to Zemun City Park — its coordinates and Plus Code, how the garden is laid out, the entrances, and how far the churches, sarcophagi and the Danube really are.",
+      "h1": "Zemun City Park: Map & Orientation",
+      "card": "Park map & orientation",
+      "cardDesc": "Coordinates, the Plus Code, the garden layout and how far everything really is.",
+      "lead": "Zemun City Park has no walls and no single entrance, so a quick orientation helps. This page gives the park's location and Plus Code, describes how the 19th-century garden is laid out, and shows how the churches, sarcophagi and the Danube promenade sit in relation to each other.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "location",
+          "title": "Location & coordinates",
+          "body": "The park sits in central Zemun, Belgrade, on the site of the old Kontumac quarantine grounds. Its Plus Code is RCR5+7F (Belgrade, Serbia), and it lies a flat ten-minute walk from both Zemunska pijaca and the Danube promenade (Zemunski kej)."
+        },
+        {
+          "id": "layout",
+          "title": "How the garden is laid out",
+          "body": "It is a compact, mostly flat public garden rather than a formal park with avenues. A central lawn holds the two historic churches a few metres apart; shaded paths wind among mature plane trees and a ginkgo; and the Roman sarcophagi stand as stone furniture near the paths. Benches and a few open glades make it easy to sit."
+        },
+        {
+          "id": "entrances",
+          "title": "Entrances",
+          "body": "There is no gate. You can enter from any of the surrounding streets — the main pedestrian approaches are on the Nemanjina side and along the paths leading towards Gardoška. The park blends into the neighbourhood, so most people simply walk in."
+        },
+        {
+          "id": "points",
+          "title": "What's where",
+          "body": "The twin churches are on the central lawn; the Roman sarcophagi are set near the paths a short walk away; the grammar-school building of 1858 edges the park. From the park it is about 10–15 minutes on foot to Gardoš Tower, Zemunska pijaca and the Danube promenade."
+        },
+        {
+          "id": "distances",
+          "title": "Distances at a glance",
+          "body": "Park centre → Zemunska pijaca: ~10 min · → Danube promenade: ~10–15 min · → Gardoš Tower: ~10–15 min (gentle cobbled climb) · → central Zemun bus stops: ~3–5 min. These are typical walking times, not guarantees."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where exactly is Zemun City Park?",
+          "a": "In central Zemun, Belgrade, on the old Kontumac grounds. Its Plus Code is RCR5+7F (Belgrade, Serbia)."
+        },
+        {
+          "q": "What are the coordinates?",
+          "a": "Use the Plus Code RCR5+7F (Belgrade, Serbia) in any maps app; the park sits a flat 10-minute walk from the market and the Danube promenade."
+        },
+        {
+          "q": "Is the park fenced or gated?",
+          "a": "No — there is no wall or gate. You can enter from the surrounding streets at any point."
+        },
+        {
+          "q": "How far is the Danube promenade?",
+          "a": "About 10–15 minutes on foot, downhill from the park, to Zemunski kej."
+        },
+        {
+          "q": "How long does it take to walk the park itself?",
+          "a": "A full loop is roughly 20 minutes; most visitors spend 30–60 minutes including the churches and sarcophagi."
+        }
+      ],
+      "related": [
+        "guide",
+        "transport",
+        "near",
+        "gettingHere",
+        "promenade",
+        "gardos",
+        "parking",
+        "accessibility",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "park location and layout"
+        },
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "visitor information"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "kidsDogs": {
+      "title": "Zemun City Park with Kids & Dogs: Flat Paths, Shade & the Kej",
+      "description": "Visiting Zemun City Park with children or dogs — flat, traffic-free paths, shade and benches, where to walk, water and family-friendly stops nearby, and the Danube promenade for a longer outing.",
+      "h1": "Zemun City Park with Kids & Dogs",
+      "card": "With kids & dogs",
+      "cardDesc": "Flat, traffic-free paths, shade and benches — plus the kej for a longer outing.",
+      "lead": "Zemun City Park is an easy place to visit with children or a dog. It is mostly flat, has no through-traffic inside, and is shady under mature trees with plenty of benches. This page covers what to expect and where to extend the walk.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "kids",
+          "title": "With children",
+          "body": "The flat paths and open lawn suit toddlers and pushchairs, and there is space to wander without crossing busy roads inside the park. The twin churches and the Roman sarcophagi are curious, touchable history; keep an eye on little ones near the stone monuments. Bring snacks and water — there is no café inside, but the market and old town cafés are close."
+        },
+        {
+          "id": "dogs",
+          "title": "With dogs",
+          "body": "Dogs are welcome in this public park; keep them on a lead and clean up after them, as anywhere in the city. The shaded paths are comfortable for a short walk, and there are benches to rest. The wider old-Zemun streets and the downhill walk to the Danube promenade give longer routes."
+        },
+        {
+          "id": "shade",
+          "title": "Shade & rest",
+          "body": "Mature plane trees and a ginkgo cover much of the central area, making it one of the cooler spots in Zemun on a summer afternoon. Benches are scattered through the garden, so resting is easy."
+        },
+        {
+          "id": "nearby",
+          "title": "Nearby family stops",
+          "body": "Zemunska pijaca (a few minutes away) is a gentle, sensory wander for kids and a place to buy fruit; the Danube promenade (Zemunski kej) is flat and stroller-friendly for a longer walk and some river air. Family cafés line the old town a short walk from the park."
+        },
+        {
+          "id": "practical",
+          "title": "Practical notes",
+          "body": "There are no toilets inside the park; plan to use a café or the market area. Carry water for both kids and dogs, especially in summer, and use the shade in the middle of the day."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the park good for toddlers and pushchairs?",
+          "a": "Yes — it is mostly flat with no traffic inside, and the central lawn and paths suit pushchairs, though some side paths mix gravel."
+        },
+        {
+          "q": "Are dogs allowed?",
+          "a": "Yes, dogs are welcome in this public park. Keep them on a lead and clean up after them."
+        },
+        {
+          "q": "Is there shade?",
+          "a": "Largely — mature plane trees and a ginkgo shade much of the centre, making it cooler than the open streets."
+        },
+        {
+          "q": "Where can we walk a dog longer?",
+          "a": "The downhill route to the Danube promenade (Zemunski kej) is flat and gives a longer, river-side walk."
+        },
+        {
+          "q": "Are there toilets in the park?",
+          "a": "No — there are no public toilets inside the park; use a nearby café or the market area."
+        }
+      ],
+      "related": [
+        "guide",
+        "accessibility",
+        "near",
+        "promenade",
+        "halfDay",
+        "dining",
+        "market",
+        "photo",
+        "spring",
+        "autumn"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "family and visitor information"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "spring": {
+      "title": "Zemun in Spring: Blossom, Mild Walks & the Quiet Before Summer",
+      "description": "What Zemun City Park and the neighbourhood are like in spring — trees coming into leaf, mild sunny days, the first outdoor café tables, and how to enjoy the park before the summer crowds.",
+      "h1": "Zemun in Spring",
+      "card": "Zemun in spring",
+      "cardDesc": "Trees in leaf, mild sunny days and the first outdoor café tables.",
+      "lead": "Spring in Zemun is gentle: the plane trees and ginkgo in the park push out new leaves, the light is soft, and the streets fill with people again after winter. This page is a plain, honest look at visiting Zemun City Park and the old town in spring, and why it is one of the most pleasant times to walk here.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "leaves",
+          "title": "New leaves and blossom",
+          "body": "After the bare winter, the park turns green fast. The mature plane trees, the ginkgo and the smaller plantings come into leaf through March and April, and the open lawns are at their freshest. It is a good time for photographs of the two churches and the Roman sarcophagi without the harsh summer sun."
+        },
+        {
+          "id": "weather",
+          "title": "Mild, changeable weather",
+          "body": "Spring days are mild but can be showery — a typical Balkan spring with sunshine one hour and a passing rain the next. Mornings and evenings are cool, midday is pleasant for a walk. Carry a light jacket and, in April, an umbrella isn't a bad idea."
+        },
+        {
+          "id": "cafes",
+          "title": "Café terraces reopen",
+          "body": "As the weather warms, the old-town cafés and the kafane around the park and the kej bring their tables back outside. Sitting out with a coffee becomes possible again, and the promenade starts to buzz in the early evening."
+        },
+        {
+          "id": "market",
+          "title": "The market in spring",
+          "body": "Zemunska pijaca moves from winter storage crops to spring greens, the first asparagus, early cherries and fresh river fish. It is a lively, local time to shop and snack."
+        },
+        {
+          "id": "practical",
+          "title": "Practical tips",
+          "body": "Spring is one of the best windows for a long walk: not too hot, not too cold. Combine the park with the downhill stroll to Zemunski kej, and time your visit for late morning or late afternoon when the light is soft and the lanes are quiet."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is spring a good time to visit Zemun?",
+          "a": "Yes — mild weather, fresh green leaves and fewer crowds than summer make it one of the most pleasant seasons to walk the park and old town."
+        },
+        {
+          "q": "Does it rain a lot in spring?",
+          "a": "Spring is changeable: you'll get sunny days and passing showers. A light jacket and an umbrella in April are sensible."
+        },
+        {
+          "q": "Are the café terraces open in spring?",
+          "a": "Mostly yes — as it warms, cafés and kafane bring tables back outside, especially along the old town and the Danube promenade."
+        },
+        {
+          "q": "What's in season at the market in spring?",
+          "a": "Spring greens, the first asparagus, early cherries and fresh river fish arrive at Zemunska pijaca."
+        },
+        {
+          "q": "Is the park green in spring?",
+          "a": "Yes — the plane trees, ginkgo and lawns come into leaf through March and April, and the garden looks fresh and full."
+        }
+      ],
+      "related": [
+        "guide",
+        "seasons",
+        "photo",
+        "near",
+        "market",
+        "promenade",
+        "dining",
+        "summer",
+        "winter",
+        "autumn",
+        "map"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "seasonal events and visitor info"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
+    "autumn": {
+      "title": "Zemun in Autumn: Golden Light, Fall Produce & Quiet Streets",
+      "description": "What Zemun City Park and the neighbourhood are like in autumn — warm low light, the leaves turning, the market's harvest, and a calm, local pace before winter.",
+      "h1": "Zemun in Autumn",
+      "card": "Zemun in autumn",
+      "cardDesc": "Warm low light, turning leaves and the market's autumn harvest.",
+      "lead": "Autumn in Zemun is calm and golden. The plane trees in the park shift from green to yellow, the light over the Danube is warm and low, and the streets settle into a quieter, local rhythm after the summer. This page is a plain, honest look at visiting Zemun City Park in autumn.",
+      "updated": "October 2026",
+      "sections": [
+        {
+          "id": "light",
+          "title": "Golden light and turning leaves",
+          "body": "From September the park's plane trees and the ginkgo begin to turn, and by October the lanes are lit with yellow and gold. The low autumn sun is excellent for photography — the two churches, the sarcophagi and the old town all catch warm light."
+        },
+        {
+          "id": "quiet",
+          "title": "A quieter pace",
+          "body": "After the summer visitors, Zemun settles. The market still runs, the cafés keep their terraces in the mild early autumn, and a walk from the park to the kej is peaceful. It is a good season for unhurried exploring."
+        },
+        {
+          "id": "market",
+          "title": "The market in autumn",
+          "body": "Zemunska pijaca is at its harvest best: grapes, apples and pears, late tomatoes and peppers for roasting, and walnuts and quince. Fresh river fish is still available. It is the most food-focused season at the market."
+        },
+        {
+          "id": "weather",
+          "title": "Weather and what to wear",
+          "body": "Early autumn is mild and pleasant; later autumn gets cool and damp, with the first frosts possible in November. Dress in layers, bring a light coat from October, and wear shoes with grip for wet cobbles on the climb to Gardoš."
+        },
+        {
+          "id": "practical",
+          "title": "Practical tips",
+          "body": "Aim for midday to late afternoon, when the light is warmest. Combine the park with the promenade and a stop at the market; the gentle climb to Gardoš Tower is comfortable while it is still mild."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is autumn a good time to visit Zemun?",
+          "a": "Yes — the light is warm and golden, the leaves turn in the park, and the streets are calmer than in summer."
+        },
+        {
+          "q": "When do the leaves change colour?",
+          "a": "The plane trees and ginkgo start turning in September, with the strongest colour through October."
+        },
+        {
+          "q": "What's in season at the market in autumn?",
+          "a": "Grapes, apples and pears, late tomatoes and roasting peppers, plus walnuts and quince; fresh river fish is also available."
+        },
+        {
+          "q": "Is it cold in autumn?",
+          "a": "Early autumn is mild; later autumn turns cool and damp, with possible frosts in November. Layers and a light coat from October work well."
+        },
+        {
+          "q": "Is the promenade nice in autumn?",
+          "a": "Yes — mild early-autumn evenings are pleasant, and the low warm light over the Danube is great for photographs."
+        }
+      ],
+      "related": [
+        "guide",
+        "seasons",
+        "photo",
+        "near",
+        "market",
+        "promenade",
+        "dining",
+        "summer",
+        "winter",
+        "spring",
+        "map"
+      ],
+      "sources": [
+        {
+          "name": "Tourist Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "seasonal events and visitor info"
+        },
+        {
+          "name": "Google Maps listing",
+          "url": "https://maps.app.goo.gl/2T9CAbDFmTXmmBAA8",
+          "note": "rating snapshot (October 2026)"
+        }
+      ]
+    },
     "transport": {
       "title": "How to Get to Zemun City Park (Bus, Taxi & On Foot)",
       "description": "Ways to reach Zemun City Park from central Belgrade, Nikola Tesla Airport and around Zemun — with official journey planners for current bus lines, plus the nearest stops and park entrances.",
@@ -581,17 +1910,60 @@
         }
       ],
       "faq": [
-        { "q": "What is the nearest bus stop?", "a": "Central Zemun stops near the market and the school are the closest, a few minutes' walk from the park. Confirm the current line and stop with the GSP planner." },
-        { "q": "How long does it take from Belgrade city centre?", "a": "Typically 25–40 minutes by bus, 15–25 minutes by taxi, depending on traffic." },
-        { "q": "How do I get from the airport?", "a": "Airport bus or city bus into the centre, then a bus or taxi to Zemun — allow 45–60 minutes in total." },
-        { "q": "Can I park near the park?", "a": "Only street parking, which is limited in old Zemun. Public transport or a short walk from a central stop is easier." },
-        { "q": "Is the park walkable from Zemun's main sights?", "a": "Yes — the market, Gardoš Tower and the Danube promenade are all within about 10–15 minutes on foot." }
+        {
+          "q": "What is the nearest bus stop?",
+          "a": "Central Zemun stops near the market and the school are the closest, a few minutes' walk from the park. Confirm the current line and stop with the GSP planner."
+        },
+        {
+          "q": "How long does it take from Belgrade city centre?",
+          "a": "Typically 25–40 minutes by bus, 15–25 minutes by taxi, depending on traffic."
+        },
+        {
+          "q": "How do I get from the airport?",
+          "a": "Airport bus or city bus into the centre, then a bus or taxi to Zemun — allow 45–60 minutes in total."
+        },
+        {
+          "q": "Can I park near the park?",
+          "a": "Only street parking, which is limited in old Zemun. Public transport or a short walk from a central stop is easier."
+        },
+        {
+          "q": "Is the park walkable from Zemun's main sights?",
+          "a": "Yes — the market, Gardoš Tower and the Danube promenade are all within about 10–15 minutes on foot."
+        }
       ],
-      "related": ["guide", "halfDay", "oldTown", "promenade", "gardos", "near"],
+      "related": [
+        "guide",
+        "halfDay",
+        "oldTown",
+        "promenade",
+        "gardos",
+        "near",
+        "market",
+        "oneDay",
+        "dining",
+        "gettingHere",
+        "accessibility",
+        "faq",
+        "seasons",
+        "parking",
+        "map"
+      ],
       "sources": [
-        { "name": "GSP Beograd — public transport", "url": "https://www.gsp.rs/", "note": "official lines and timetables" },
-        { "name": "Belgrade Nikola Tesla Airport", "url": "https://www.beg.aero/", "note": "airport transfer information" },
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "park location and entrances" }
+        {
+          "name": "GSP Beograd — public transport",
+          "url": "https://www.gsp.rs/",
+          "note": "official lines and timetables"
+        },
+        {
+          "name": "Belgrade Nikola Tesla Airport",
+          "url": "https://www.beg.aero/",
+          "note": "airport transfer information"
+        },
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "park location and entrances"
+        }
       ]
     },
     "history": {
@@ -630,17 +2002,52 @@
         }
       ],
       "faq": [
-        { "q": "What was the Kontumac?", "a": "Zemun's border quarantine station, where travellers and goods from the east were held in the 18th and 19th centuries before entering Habsburg territory." },
-        { "q": "When did the park appear?", "a": "Zemun city sources record that the grounds began to be laid out as a small park in 1880; it developed into a city park over the following decades." },
-        { "q": "Why are there two churches?", "a": "The quarantine served a mixed Orthodox and Catholic population, and a church was built for each community — both survive inside the park." },
-        { "q": "Who was Lamartine?", "a": "The French poet Alphonse de Lamartine, who stayed in Zemun in 1833 on his eastern journey; a memorial column in the park commemorates the visit." },
-        { "q": "Is there a museum inside the park?", "a": "No — the monuments are outdoors, in the open park." }
+        {
+          "q": "What was the Kontumac?",
+          "a": "Zemun's border quarantine station, where travellers and goods from the east were held in the 18th and 19th centuries before entering Habsburg territory."
+        },
+        {
+          "q": "When did the park appear?",
+          "a": "Zemun city sources record that the grounds began to be laid out as a small park in 1880; it developed into a city park over the following decades."
+        },
+        {
+          "q": "Why are there two churches?",
+          "a": "The quarantine served a mixed Orthodox and Catholic population, and a church was built for each community — both survive inside the park."
+        },
+        {
+          "q": "Who was Lamartine?",
+          "a": "The French poet Alphonse de Lamartine, who stayed in Zemun in 1833 on his eastern journey; a memorial column in the park commemorates the visit."
+        },
+        {
+          "q": "Is there a museum inside the park?",
+          "a": "No — the monuments are outdoors, in the open park."
+        }
       ],
-      "related": ["guide", "churches", "sarcophagi", "halfDay"],
+      "related": [
+        "guide",
+        "churches",
+        "sarcophagi",
+        "halfDay",
+        "map",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "history of Zemun and the Kontumac" },
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "park management's description" },
-        { "name": "Tourism Organization of Belgrade", "url": "https://www.tob.rs/", "note": "visitor information" }
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "history of Zemun and the Kontumac"
+        },
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "park management's description"
+        },
+        {
+          "name": "Tourism Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "visitor information"
+        }
       ]
     },
     "churches": {
@@ -679,17 +2086,52 @@
         }
       ],
       "faq": [
-        { "q": "Can I go inside the churches?", "a": "Only when they are open — interiors follow the services and are sometimes closed. There is no published timetable we can verify." },
-        { "q": "How old are the churches?", "a": "The commonly cited dates are 1786 for the Orthodox church and 1836 for the Catholic church; we could not confirm these against the parishes." },
-        { "q": "Why is there an Orthodox and a Catholic church together?", "a": "The quarantine grounds served a mixed population, and each community built its own church." },
-        { "q": "Can I take photographs?", "a": "Exteriors, yes. Inside, ask first — some Orthodox churches prohibit photography." },
-        { "q": "Do the churches still hold services?", "a": "Yes — both are working churches, which is why visitor access is secondary to the services." }
+        {
+          "q": "Can I go inside the churches?",
+          "a": "Only when they are open — interiors follow the services and are sometimes closed. There is no published timetable we can verify."
+        },
+        {
+          "q": "How old are the churches?",
+          "a": "The commonly cited dates are 1786 for the Orthodox church and 1836 for the Catholic church; we could not confirm these against the parishes."
+        },
+        {
+          "q": "Why is there an Orthodox and a Catholic church together?",
+          "a": "The quarantine grounds served a mixed population, and each community built its own church."
+        },
+        {
+          "q": "Can I take photographs?",
+          "a": "Exteriors, yes. Inside, ask first — some Orthodox churches prohibit photography."
+        },
+        {
+          "q": "Do the churches still hold services?",
+          "a": "Yes — both are working churches, which is why visitor access is secondary to the services."
+        }
       ],
-      "related": ["history", "guide", "sarcophagi", "halfDay"],
+      "related": [
+        "history",
+        "guide",
+        "sarcophagi",
+        "halfDay",
+        "map",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "the two quarantine churches" },
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "facilities inside the park" },
-        { "name": "Tourism Organization of Belgrade", "url": "https://www.tob.rs/", "note": "visitor information" }
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "the two quarantine churches"
+        },
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "facilities inside the park"
+        },
+        {
+          "name": "Tourism Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "visitor information"
+        }
       ]
     },
     "sarcophagi": {
@@ -728,17 +2170,52 @@
         }
       ],
       "faq": [
-        { "q": "How old are the sarcophagi?", "a": "They are Roman, roughly two thousand years old, from the era when Zemun was the frontier settlement of Taurunum." },
-        { "q": "Where exactly are they?", "a": "In the open park near the paths — there is no ticketed display; look for the stone coffins close to the entrance area." },
-        { "q": "Who was Lamartine?", "a": "A French poet who passed through Zemun in 1833; the column in the park commemorates his stay." },
-        { "q": "What does the 1941 memorial mark?", "a": "The execution of anti-fascist hostages in Zemun during the Second World War." },
-        { "q": "When is the ginkgo at its best?", "a": "Late October to early November, when the leaves turn golden." }
+        {
+          "q": "How old are the sarcophagi?",
+          "a": "They are Roman, roughly two thousand years old, from the era when Zemun was the frontier settlement of Taurunum."
+        },
+        {
+          "q": "Where exactly are they?",
+          "a": "In the open park near the paths — there is no ticketed display; look for the stone coffins close to the entrance area."
+        },
+        {
+          "q": "Who was Lamartine?",
+          "a": "A French poet who passed through Zemun in 1833; the column in the park commemorates his stay."
+        },
+        {
+          "q": "What does the 1941 memorial mark?",
+          "a": "The execution of anti-fascist hostages in Zemun during the Second World War."
+        },
+        {
+          "q": "When is the ginkgo at its best?",
+          "a": "Late October to early November, when the leaves turn golden."
+        }
       ],
-      "related": ["history", "guide", "churches", "halfDay"],
+      "related": [
+        "history",
+        "guide",
+        "churches",
+        "halfDay",
+        "map",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "monuments on the former quarantine grounds" },
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "park facilities" },
-        { "name": "Tourism Organization of Belgrade", "url": "https://www.tob.rs/", "note": "visitor information" }
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "monuments on the former quarantine grounds"
+        },
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "park facilities"
+        },
+        {
+          "name": "Tourism Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "visitor information"
+        }
       ]
     },
     "halfDay": {
@@ -777,17 +2254,59 @@
         }
       ],
       "faq": [
-        { "q": "How long is the route?", "a": "3–4 hours at a relaxed pace, including stops." },
-        { "q": "Where should I start?", "a": "At Zemun City Park — it is the natural first stop and connects to everything else on foot." },
-        { "q": "Is the route hilly?", "a": "Only the short climb to Gardoš Tower; the rest is flat or gently downhill." },
-        { "q": "Can I do it with children?", "a": "Yes — the park and promenade are stroller-friendly; carry strollers up the cobbled climb to Gardoš." },
-        { "q": "Is it good at sunset?", "a": "Yes — the Danube promenade at the end of the route faces the sunset over the river." }
+        {
+          "q": "How long is the route?",
+          "a": "3–4 hours at a relaxed pace, including stops."
+        },
+        {
+          "q": "Where should I start?",
+          "a": "At Zemun City Park — it is the natural first stop and connects to everything else on foot."
+        },
+        {
+          "q": "Is the route hilly?",
+          "a": "Only the short climb to Gardoš Tower; the rest is flat or gently downhill."
+        },
+        {
+          "q": "Can I do it with children?",
+          "a": "Yes — the park and promenade are stroller-friendly; carry strollers up the cobbled climb to Gardoš."
+        },
+        {
+          "q": "Is it good at sunset?",
+          "a": "Yes — the Danube promenade at the end of the route faces the sunset over the river."
+        }
       ],
-      "related": ["guide", "transport", "oldTown", "promenade", "gardos", "near"],
+      "related": [
+        "guide",
+        "transport",
+        "oldTown",
+        "promenade",
+        "gardos",
+        "near",
+        "market",
+        "oneDay",
+        "dining",
+        "parking",
+        "map",
+        "kidsDogs",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "Tourism Organization of Belgrade", "url": "https://www.tob.rs/", "note": "Zemun visitor information" },
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "Gardoš and the old town" },
-        { "name": "Beogradski park — Zemun city park", "url": "https://beogradskipark.rs/en/parkovi/gradski-park/", "note": "the park as the starting point" }
+        {
+          "name": "Tourism Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemun visitor information"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "Gardoš and the old town"
+        },
+        {
+          "name": "Beogradski park — Zemun city park",
+          "url": "https://beogradskipark.rs/en/parkovi/gradski-park/",
+          "note": "the park as the starting point"
+        }
       ]
     },
     "oldTown": {
@@ -826,16 +2345,56 @@
         }
       ],
       "faq": [
-        { "q": "How far is the old town from the park?", "a": "They touch — the old-town lanes begin a few minutes' walk from the park's edge." },
-        { "q": "When is the market busiest?", "a": "Morning, especially at weekends; it winds down in the early afternoon." },
-        { "q": "What is Gardoš Tower?", "a": "A lookout tower from around 1896 on Gardoš hill, with panoramic views over the Danube and Belgrade." },
-        { "q": "Is the old town walkable?", "a": "Yes — it is compact and flat apart from the short climb to Gardoš." },
-        { "q": "Can I combine it with the park in one visit?", "a": "That is the recommended way — see the half-day walking route." }
+        {
+          "q": "How far is the old town from the park?",
+          "a": "They touch — the old-town lanes begin a few minutes' walk from the park's edge."
+        },
+        {
+          "q": "When is the market busiest?",
+          "a": "Morning, especially at weekends; it winds down in the early afternoon."
+        },
+        {
+          "q": "What is Gardoš Tower?",
+          "a": "A lookout tower from around 1896 on Gardoš hill, with panoramic views over the Danube and Belgrade."
+        },
+        {
+          "q": "Is the old town walkable?",
+          "a": "Yes — it is compact and flat apart from the short climb to Gardoš."
+        },
+        {
+          "q": "Can I combine it with the park in one visit?",
+          "a": "That is the recommended way — see the half-day walking route."
+        }
       ],
-      "related": ["halfDay", "guide", "promenade", "transport", "gardos", "near"],
+      "related": [
+        "halfDay",
+        "guide",
+        "promenade",
+        "transport",
+        "gardos",
+        "near",
+        "market",
+        "oneDay",
+        "dining",
+        "parking",
+        "map",
+        "summer",
+        "winter",
+        "spring",
+        "autumn",
+        "kidsDogs"
+      ],
       "sources": [
-        { "name": "Tourism Organization of Belgrade", "url": "https://www.tob.rs/", "note": "Zemun old town and market" },
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "Zemun municipal information" }
+        {
+          "name": "Tourism Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemun old town and market"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "Zemun municipal information"
+        }
       ]
     },
     "promenade": {
@@ -874,16 +2433,55 @@
         }
       ],
       "faq": [
-        { "q": "How far is the promenade from the park?", "a": "About 10–15 minutes on foot, mostly downhill." },
-        { "q": "What is there to eat on the kej?", "a": "Several floating restaurants and cafés along the quay serve river fish and coffee — choose on the spot." },
-        { "q": "Is the promenade good for sunsets?", "a": "Yes — it faces the sunset over the Danube; arrive early for a bench." },
-        { "q": "Are there swans?", "a": "Yes — swans are a fixture of the Zemun riverbank." },
-        { "q": "Is the walk suitable for strollers?", "a": "Mostly — the lanes are cobbled and the slope is gentle, but check conditions if you use a wheelchair or stroller." }
+        {
+          "q": "How far is the promenade from the park?",
+          "a": "About 10–15 minutes on foot, mostly downhill."
+        },
+        {
+          "q": "What is there to eat on the kej?",
+          "a": "Several floating restaurants and cafés along the quay serve river fish and coffee — choose on the spot."
+        },
+        {
+          "q": "Is the promenade good for sunsets?",
+          "a": "Yes — it faces the sunset over the Danube; arrive early for a bench."
+        },
+        {
+          "q": "Are there swans?",
+          "a": "Yes — swans are a fixture of the Zemun riverbank."
+        },
+        {
+          "q": "Is the walk suitable for strollers?",
+          "a": "Mostly — the lanes are cobbled and the slope is gentle, but check conditions if you use a wheelchair or stroller."
+        }
       ],
-      "related": ["halfDay", "guide", "oldTown", "transport", "gardos", "near"],
+      "related": [
+        "halfDay",
+        "guide",
+        "oldTown",
+        "transport",
+        "gardos",
+        "near",
+        "market",
+        "oneDay",
+        "dining",
+        "summer",
+        "winter",
+        "kidsDogs",
+        "map",
+        "spring",
+        "autumn"
+      ],
       "sources": [
-        { "name": "Tourism Organization of Belgrade", "url": "https://www.tob.rs/", "note": "Zemunski kej and the riverfront" },
-        { "name": "City of Belgrade — official portal", "url": "https://www.beograd.rs/", "note": "Zemun municipal information" }
+        {
+          "name": "Tourism Organization of Belgrade",
+          "url": "https://www.tob.rs/",
+          "note": "Zemunski kej and the riverfront"
+        },
+        {
+          "name": "City of Belgrade — official portal",
+          "url": "https://www.beograd.rs/",
+          "note": "Zemun municipal information"
+        }
       ]
     }
   }
