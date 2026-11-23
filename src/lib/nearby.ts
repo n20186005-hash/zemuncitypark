@@ -294,7 +294,7 @@ export const NEARBY_PLACES: NearbyPlace[] = [
       "sr": "Заштићено гробље лежи на брду где су забележени најстарији трагови насељавања Земуна. Стазе повезују породичне капеле и споменике у активном гробљу.",
       "zh": "受保护的墓园所在山丘发现了泽蒙最早的聚落遗迹。步道连接家族礼拜堂和纪念碑，墓园至今仍在使用。"
     },
-    "address": "Grobljanska 5",
+    "address": "Grobljanska 1",
     "category": "Zemun cemetery",
     "kind": "cemetery"
   },

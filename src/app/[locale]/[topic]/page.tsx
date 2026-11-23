@@ -93,7 +93,7 @@ export default async function TopicRoute({
 
   return (
     <>
-      <Header secondary />
+      <Header secondary={!topic.place} />
       <main>
         {topic.place
           ? <PlacePage locale={locale as Locale} place={topic.place} />

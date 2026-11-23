@@ -30,17 +30,17 @@ export default function Header({ secondary = false }: { secondary?: boolean }) {
         backdropFilter: solid ? 'blur(12px)' : 'none',
       }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <a href={homeHref} className="font-display text-lg font-semibold tracking-tight" style={{ color: solid ? 'var(--text-primary)' : '#fff' }}>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-[minmax(0,1fr)_auto] items-center md:h-16 md:grid-cols-[1fr_auto_1fr]">
+        <a href={homeHref} className="min-w-0 truncate font-display text-lg font-semibold tracking-tight py-4" style={{ color: solid ? 'var(--text-primary)' : '#fff' }}>
           Zemun City Park
         </a>
 
-        <nav className="hidden md:flex items-center gap-6">
+        <nav aria-label={visitorLabels[locale as Locale].navigation} className="col-span-2 row-start-2 flex items-stretch justify-center gap-1 overflow-x-auto md:col-span-1 md:row-start-1 md:col-start-2 md:gap-3">
           {(['gallery', 'reviews', 'map', 'nearby'] as const).map((section) => (
             <a
               key={section}
               href={`${homeHref}/#${section}`}
-              className="text-sm font-medium transition-colors"
+              className="flex min-h-11 items-center justify-center whitespace-nowrap rounded-md px-2 text-xs font-medium transition-colors hover:bg-white/15 md:px-3 md:text-sm"
               style={{ color: solid ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
               {section === 'nearby' ? visitorLabels[locale as Locale].nearby : t(section)}
@@ -48,7 +48,7 @@ export default function Header({ secondary = false }: { secondary?: boolean }) {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="col-start-2 row-start-1 flex items-center justify-end gap-2 md:col-start-3">
           <ThemeToggle />
           <LanguageToggle />
         </div>

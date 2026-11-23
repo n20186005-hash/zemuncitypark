@@ -22,7 +22,7 @@ const checks = [
       'free public park on the old Kontumac quarantine grounds',
       'More Zemun Guides',
       'Sources &amp; How This Guide Was Checked',
-      '6,362',
+      '6,397',
       'RCR5+7F Belgrade, Serbia',
       'FAQPage',
       'BreadcrumbList',
@@ -50,7 +50,7 @@ const checks = [
     expect: [
       'rel="canonical" href="https://www.zemuncitypark.com/sr"',
       'Градски парк у Земуну (Земунски парк) | Локација, историја и водич за посете',
-      '6.362',
+      '6.397',
       'RCR5+7F Београд, Србија',
       'Још земунских водича',
     ],
@@ -61,7 +61,7 @@ const checks = [
     expect: [
       'rel="canonical" href="https://www.zemuncitypark.com/zh"',
       '泽蒙城市公园（Zemunski Park）｜位置、历史与游览指南',
-      '6,362',
+      '6,397',
       'RCR5+7F',
       '信息来源与核对方式',
     ],

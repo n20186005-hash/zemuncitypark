@@ -1,3 +1,4 @@
+import { placePlanning, planningLabels } from '@/lib/place-planning';
 import type { Locale } from '@/i18n/routing';
 import { NEARBY_PLACES, placeMap, type NearbyPlace } from '@/lib/nearby';
 import { placeGuides } from '@/lib/place-guides';
@@ -6,7 +7,7 @@ import { MapLink, VisitPanel } from './VisitDetails';
 
 const copy = {
   en: {
-    discover: 'History, architecture and what to look for', advice: 'Visit tips and photo spots',
+    discover: 'History, architecture and what to look for', advice: 'Photo spots',
     route: 'Suggested walking route', start: 'Start from Zemun City Park and use the destination map for your walk.',
     islandStart: 'Start on the Zemun quay. Check whether the crossing to Lido is open.',
     stop: 'At the site', next: 'Continue to', islandNext: 'Back on the mainland, continue to',
@@ -14,7 +15,7 @@ const copy = {
     source: 'The Belgrade heritage register records its protection decision in',
   },
   sr: {
-    discover: 'Историја, архитектура и детаљи', advice: 'Савети за посету и фотографисање',
+    discover: 'Историја, архитектура и детаљи', advice: 'Места за фотографисање',
     route: 'Предложена пешачка рута', start: 'Крените од Градског парка у Земуну и користите мапу одредишта.',
     islandStart: 'Крените са Земунског кеја и проверите да ли је отворен прелаз до Лида.',
     stop: 'На одредишту', next: 'Наставите ка', islandNext: 'По повратку на копно наставите ка',
@@ -22,7 +23,7 @@ const copy = {
     source: 'Београдски регистар наслеђа бележи одлуку о заштити из',
   },
   zh: {
-    discover: '历史、建筑与观察重点', advice: '游览建议与拍照机位',
+    discover: '历史、建筑与观察重点', advice: '拍照机位',
     route: '建议步行路线', start: '从泽蒙城市公园出发，按下方的目的地地图步行前往。',
     islandStart: '从泽蒙河岸出发，先查看通往丽都的季节性通道是否开放。',
     stop: '到达后', next: '接着前往', islandNext: '返回陆地后可前往',
@@ -31,9 +32,10 @@ const copy = {
   },
 };
 
-export default function PlaceGuide({ locale, place, access }: { locale: Locale; place: NearbyPlace; access: string }) {
+export default function PlaceGuide({ locale, place, access, detail }: { locale: Locale; place: NearbyPlace; access: string; detail: string }) {
   const labels = copy[locale];
   const guide = placeGuides[place.slug];
+  const plan = placePlanning(place, locale);
   const next = NEARBY_PLACES.find((item) => item.slug === guide.nearby)!;
   const nextLink = <a className="underline underline-offset-4" href={topicPath(locale, `place:${next.slug}`)}>{next.names[locale]}</a>;
   const island = place.kind === 'island';
@@ -41,11 +43,9 @@ export default function PlaceGuide({ locale, place, access }: { locale: Locale; 
   return (
     <>
       <VisitPanel title={labels.discover} id="discover">
-        <p>{guide.highlight[locale]}</p>
+        {detail && <p>{detail}</p>}
+        <p>{nextLink} · {next.address}</p>
         {guide.designationYear && <p>{labels.source} {guide.designationYear}{locale === 'zh' ? ' 年。' : '.'}</p>}
-      </VisitPanel>
-      <VisitPanel title={labels.advice} id="photo-spots">
-        <p>{guide.photography[locale]}</p>
       </VisitPanel>
       <VisitPanel title={labels.route} id="walking-route">
         <ol className="list-decimal space-y-2 pl-5">
@@ -53,6 +53,10 @@ export default function PlaceGuide({ locale, place, access }: { locale: Locale; 
           <li>{labels.stop} · <MapLink href={placeMap(place)}>{place.names[locale]}</MapLink> · {place.address}</li>
           <li>{island ? labels.islandNext : labels.next} · {nextLink}</li>
         </ol>
+      </VisitPanel>
+      <VisitPanel title={planningLabels[locale].rules} id="visit-notes"><p>{plan.rules}</p></VisitPanel>
+      <VisitPanel title={labels.advice} id="photo-spots">
+        <p>{guide.photography[locale]}</p>
       </VisitPanel>
       <VisitPanel title={labels.faq} id="faq">
         <details><summary className="cursor-pointer font-semibold">{labels.entry}</summary><p className="mt-2">{access}</p></details>

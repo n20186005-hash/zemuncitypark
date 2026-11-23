@@ -1,3 +1,4 @@
+import { boxOfficeSource, cemeterySource, placeLogistics, placePlanning, planningLabels } from '@/lib/place-planning';
 import { getTranslations } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { googleMaps, parkMaintenance, placeMap, type NearbyPlace } from '@/lib/nearby';
@@ -61,6 +62,8 @@ export async function ParkVisitDetails({ locale, topicKey }: { locale: Locale; t
 
 export function placeAccess(place: NearbyPlace, locale: Locale) {
   const labels = visitorLabels[locale];
+  const hours = placePlanning(place, locale).hours;
+  if (hours) return hours;
   const exterior = place.kind === 'exterior' || place.kind === 'school' || place.kind === 'pier';
   if (exterior) return labels.heritageAccess;
   if (place.kind === 'square') return labels.publicAccess;
@@ -71,10 +74,14 @@ export function placeAccess(place: NearbyPlace, locale: Locale) {
 export function PlaceVisitDetails({ place, locale, children }: { place: NearbyPlace; locale: Locale; children: React.ReactNode }) {
   const labels = visitorLabels[locale];
   const map = placeMap(place);
+  const plan = placePlanning(place, locale);
+  const headings = planningLabels[locale];
+  const logistics = placeLogistics(place, locale);
+  const schedule = place.kind === 'cemetery' ? cemeterySource : place.kind === 'theatre' ? boxOfficeSource : undefined;
   const exterior = place.kind === 'exterior' || place.kind === 'school' || place.kind === 'pier';
   const manager = place.kind === 'exterior' ? labels.protected : labels[place.kind];
   const access = placeAccess(place, locale);
-  const admission = exterior || place.kind === 'square' ? labels.exteriorPrice : labels.venuePrice;
+  const admission = plan.admission ?? (exterior ? labels.exteriorPrice : labels.venuePrice);
   const walk = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent('Gradski park u Zemunu, Beograd')}&destination=${encodeURIComponent(`${place.names.sr}, ${place.address}, Beograd`)}&travelmode=walking`;
 
   return (
@@ -82,19 +89,32 @@ export function PlaceVisitDetails({ place, locale, children }: { place: NearbyPl
       <VisitPanel title={labels.management} id="management"><p className="font-semibold">{place.names[locale]}</p><p>{manager}</p></VisitPanel>
       <VisitPanel title={labels.information} id="information">
         <dl className="grid sm:grid-cols-[10rem_1fr] gap-x-4 gap-y-2">
+          <dt className="font-semibold">{headings.localName}</dt><dd>{place.names.sr}</dd>
+          <dt className="font-semibold">{headings.type}</dt><dd>{plan.type}</dd>
+          <dt className="font-semibold">{headings.district}</dt><dd>{headings.area}</dd>
           <dt className="font-semibold">{labels.address}</dt><dd>{place.address}</dd>
           <dt className="font-semibold">{labels.hours}</dt><dd>{access}</dd>
           <dt className="font-semibold">{labels.tickets}</dt><dd>{admission}</dd>
         </dl>
       </VisitPanel>
+      <VisitPanel title={headings.hours} id="opening-hours"><p>{access}</p>
+        {schedule && <p><MapLink href={schedule}>{headings.latest}</MapLink></p>}
+      </VisitPanel>
+      <VisitPanel title={headings.admission} id="admission"><p>{admission}</p></VisitPanel>
       <VisitPanel title={labels.transport} id="transport">
-        <p>{place.kind === 'island' ? labels.islandWalk : labels.localWalk}</p>
+        <p>{place.kind === 'island' ? labels.islandWalk : logistics.approach}</p>
         {place.kind !== 'island' && <p><MapLink href={walk}>{labels.route}</MapLink></p>}
         <p><MapLink href={transportPlanner}>{labels.publicTransport}</MapLink></p>
         <p><MapLink href={map}>{labels.map}</MapLink></p>
       </VisitPanel>
       {children}
+      <VisitPanel title={headings.lodging} id="accommodation"><p>{logistics.lodging}</p></VisitPanel>
       <VisitPanel title={labels.reviews} id="visitor-reviews"><p><MapLink href={map}>{labels.readReviews}</MapLink></p></VisitPanel>
+      <VisitPanel title={headings.directions} id="directions">
+        <p><strong>{labels.address}</strong> · {place.address} · {headings.area}</p>
+        <p><MapLink href={map}>{labels.map}</MapLink></p>
+        {place.kind !== 'island' && <p><MapLink href={walk}>{headings.planWalk}</MapLink></p>}
+      </VisitPanel>
     </>
   );
 }

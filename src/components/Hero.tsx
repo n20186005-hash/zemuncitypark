@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/images (1).jpg"
-          alt="Zemun City Park - Main view in Belgrade, Serbia"
+          alt={t('title')}
           className="w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"

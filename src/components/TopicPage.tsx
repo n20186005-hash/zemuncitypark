@@ -90,10 +90,10 @@ export default async function TopicPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
-      <article className="section-padding" style={{ paddingTop: '7rem' }}>
+      <article className="section-padding" style={{ paddingTop: '9rem' }}>
         <div className="max-w-3xl mx-auto">
           {/* Breadcrumb */}
-          <nav aria-label="Breadcrumb" className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
+          <nav aria-label={tUi('guides')} className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
             <a href={homePath(locale)} className="hover:underline" style={{ color: 'var(--accent)' }}>
               {tUi('home')}
             </a>

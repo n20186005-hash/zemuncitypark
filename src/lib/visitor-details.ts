@@ -2,6 +2,7 @@ import type { Locale } from '@/i18n/routing';
 
 export const visitorLabels = {
   en: {
+    navigation: 'Main navigation', switchLanguage: 'Switch language', toggleTheme: 'Toggle color theme', previousPhoto: 'Previous photo', nextPhoto: 'Next photo', closePhoto: 'Close photo',
     officialSource: 'Official visitor information', photoLicense: 'Photo license', photoEdit: 'Resized for this page', nearby: 'Nearby attractions', intro: 'Explore individual landmarks around Zemun City Park, from the park chapels to Gardoš and the Danube.',
     management: 'Management and access', information: 'Visitor information', address: 'Address', hours: 'Access and hours', tickets: 'Admission', transport: 'Getting there', map: 'Open in Google Maps', reviews: 'Visitor ratings and reviews', readReviews: 'Find visitor reviews on Google Maps',
     sources: 'Sources and photo credits', heritage: 'Belgrade Cultural Heritage Preservation Institute', tourism: 'Tourist Organization of Belgrade', municipality: 'Zemun municipal environmental plan', photos: 'Wikimedia Commons photographs', route: 'Walk from Zemun City Park', publicTransport: 'Belgrade public transport', return: 'All nearby attractions',
@@ -24,6 +25,7 @@ export const visitorLabels = {
     islandWalk: 'Start on the Zemun quay and confirm whether the seasonal Lido crossing is operating before setting out.',
   },
   sr: {
+    navigation: 'Главна навигација', switchLanguage: 'Промените језик', toggleTheme: 'Промените тему', previousPhoto: 'Претходна фотографија', nextPhoto: 'Следећа фотографија', closePhoto: 'Затворите фотографију',
     officialSource: 'Званичне информације за посетиоце', photoLicense: 'Лиценца фотографије', photoEdit: 'Прилагођена величина', nearby: 'Знаменитости у близини', intro: 'Откријте појединачне знаменитости око Градског парка, од паркова и капела до Гардоша и Дунава.',
     management: 'Управљање и приступ', information: 'Информације за посету', address: 'Адреса', hours: 'Приступ и радно време', tickets: 'Улазнице', transport: 'Како стићи', map: 'Отворите Google мапе', reviews: 'Оцене и утисци посетилаца', readReviews: 'Пронађите утиске на Google мапама',
     sources: 'Извори и аутори фотографија', heritage: 'Завод за заштиту споменика културе града Београда', tourism: 'Туристичка организација Београда', municipality: 'План заштите животне средине Земуна', photos: 'Фотографије на Wikimedia Commons', route: 'Пешке од Градског парка у Земуну', publicTransport: 'Јавни превоз у Београду', return: 'Све знаменитости у близини',
@@ -46,6 +48,7 @@ export const visitorLabels = {
     islandWalk: 'Крените са Земунског кеја и прво проверите да ли ради сезонски прелаз за Лидо.',
   },
   zh: {
+    navigation: '主导航', switchLanguage: '切换语言', toggleTheme: '切换明暗主题', previousPhoto: '上一张照片', nextPhoto: '下一张照片', closePhoto: '关闭照片',
     officialSource: '官方参观信息', photoLicense: '照片授权', photoEdit: '照片已调整尺寸', nearby: '周边景点', intro: '从公园礼拜堂到加尔多什与多瑙河，逐一探索泽蒙城市公园附近的地标。',
     management: '管理主体与参观方式', information: '基本信息', address: '地址', hours: '开放与参观', tickets: '门票', transport: '交通方式', map: '在 Google 地图打开', reviews: '游客评分与评价', readReviews: '在 Google 地图查看游客评价',
     sources: '资料来源与照片署名', heritage: '贝尔格莱德市文化遗产保护研究所', tourism: '贝尔格莱德旅游局', municipality: '泽蒙区环境保护计划', photos: '维基共享资源实景照片', route: '从泽蒙城市公园步行', publicTransport: '贝尔格莱德公共交通', return: '浏览全部周边景点',
