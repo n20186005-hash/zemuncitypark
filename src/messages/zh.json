@@ -214,6 +214,15 @@
     "openMaps": "在 Google 地图上查看"
   },
   "footer": {
+    "allGuides": "浏览全部指南",
+    "guideIndex": "展开专题指南",
+    "legal": "法律信息",
+    "guideGroups": {
+      "planning": "出发前准备",
+      "places": "历史与景点",
+      "routes": "路线与体验",
+      "seasons": "四季游览"
+    },
     "rights": "© 2026 泽蒙城市公园独立指南 · 保留所有权利。",
     "privacy": "隐私政策",
     "terms": "服务条款",
