@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   }));
 
-  // Topic guides exist only for the locales with translated content (sr, en).
+  // Publish each topic in the locales with translated content.
   const topics = TOPICS.flatMap((topic) =>
     TOPIC_LOCALES.filter((locale) => topic.slugs[locale]).map((locale) => {
       const languages: Record<string, string> = {};
@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }
       return {
         url: `${SITE_URL}${topicPath(locale, topic.key)}`,
-        lastModified,
+        lastModified: topic.place ? new Date('2026-11-23T00:00:00Z') : lastModified,
         alternates: { languages },
       };
     })

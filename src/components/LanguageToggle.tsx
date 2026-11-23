@@ -1,10 +1,9 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { routing, type Locale } from '@/i18n/routing';
-import { getTopicBySlug } from '@/lib/topics';
-import { useState, useRef, useEffect } from 'react';
+import { getTopicBySlug, topicPath } from '@/lib/topics';
 
 const labels: Record<string, string> = {
   sr: 'Српски',
@@ -14,53 +13,18 @@ const labels: Record<string, string> = {
 
 export default function LanguageToggle() {
   const locale = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function handleClick(e: MouseEvent) {
-      if (ref.current && !ref.current.contains(e.target as Node)) {
-        setOpen(false);
-      }
-    }
-    document.addEventListener('mousedown', handleClick);
-    return () => document.removeEventListener('mousedown', handleClick);
-  }, []);
-
-  function switchLocale(next: Locale) {
-    setOpen(false);
-
-    // 如果当前已经在目标语言，不执行任何操作
-    if (next === locale) return;
-
-    const segments = pathname.split('/').filter(Boolean);
-
-    // 判断当前路径是否带语言前缀（所有语言均带前缀：/sr /zh /en）
-    const currentLocale: Locale = routing.locales.includes(segments[0] as Locale)
-      ? (segments.shift() as Locale)
-      : routing.defaultLocale;
-    const rest = segments.length > 0 ? `/${segments.join('/')}` : '/';
-
-    // 专题页：切换到目标语言的对应 slug（各语言 slug 不同）
-    const topic = rest !== '/' ? getTopicBySlug(currentLocale, rest) : undefined;
-    const targetSlug = topic?.slugs[next as 'sr' | 'en'];
-
-    if (targetSlug) {
-      router.push(`/${next}/${targetSlug}`);
-      return;
-    }
-
-    // 常规页面：保持路径，仅切换语言前缀
-    router.push(`/${next}${rest === '/' ? '' : rest}`);
-  }
+  const segments = pathname.split('/').filter(Boolean);
+  const hasPrefix = routing.locales.includes(segments[0] as Locale);
+  const currentLocale = hasPrefix ? segments.shift() as Locale : routing.defaultLocale;
+  const topic = segments.length === 1 ? getTopicBySlug(currentLocale, segments[0]) : undefined;
+  const alternatePath = (next: Locale) =>
+    topic?.slugs[next] ? topicPath(next, topic.key) : `/${[next, ...segments].join('/')}`;
 
   return (
-    <div ref={ref} className="relative">
-      <button
-        onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors"
+    <details className="group relative">
+      <summary
+        className="flex cursor-pointer list-none items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors [&::-webkit-details-marker]:hidden"
         style={{
           background: 'var(--tag-bg)',
           color: 'var(--tag-text)',
@@ -73,34 +37,32 @@ export default function LanguageToggle() {
           <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
         </svg>
         {labels[locale]}
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className={`transition-transform ${open ? 'rotate-180' : ''}`}>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="transition-transform group-open:rotate-180">
           <polyline points="6 9 12 15 18 9"/>
         </svg>
-      </button>
+      </summary>
 
-      {open && (
-        <div
-          className="absolute right-0 mt-2 w-40 rounded-lg shadow-lg overflow-hidden z-50"
-          style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}
-        >
-          {routing.locales.map((loc) => (
-            <button
-              key={loc}
-              onClick={() => switchLocale(loc)}
-              className="w-full text-left px-4 py-2.5 text-sm transition-colors"
-              style={{
-                color: loc === locale ? 'var(--accent)' : 'var(--text-primary)',
-                fontWeight: loc === locale ? 600 : 400,
-                background: 'transparent',
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--bg-tertiary)')}
-              onMouseLeave={(e) => (e.currentTarget.style.background = 'transparent')}
-            >
-              {labels[loc]}
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
+      <div
+        className="absolute right-0 mt-2 w-40 rounded-lg shadow-lg overflow-hidden z-50"
+        style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}
+      >
+        {routing.locales.map((loc) => (
+          <a
+            key={loc}
+            href={alternatePath(loc)}
+            hrefLang={loc}
+            lang={loc}
+            aria-current={loc === locale ? 'page' : undefined}
+            className="block w-full text-left px-4 py-2.5 text-sm transition-colors hover:bg-[var(--bg-tertiary)]"
+            style={{
+              color: loc === locale ? 'var(--accent)' : 'var(--text-primary)',
+              fontWeight: loc === locale ? 600 : 400,
+            }}
+          >
+            {labels[loc]}
+          </a>
+        ))}
+      </div>
+    </details>
   );
 }

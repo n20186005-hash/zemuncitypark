@@ -1,4 +1,5 @@
 import type { Locale } from '@/i18n/routing';
+import { NEARBY_PLACES, type NearbyPlace } from './nearby';
 
 /**
  * Topic (long-tail guide) registry for zemuncitypark.com.
@@ -15,6 +16,7 @@ export const TOPIC_LOCALES = ['sr', 'en', 'zh'] as const;
 export type TopicLocale = (typeof TOPIC_LOCALES)[number];
 
 export type TopicKey =
+  | `place:${string}`
   | 'guide'
   | 'transport'
   | 'history'
@@ -44,6 +46,7 @@ export type TopicKey =
 export type Topic = {
   key: TopicKey;
   slugs: Partial<Record<TopicLocale, string>>;
+  place?: NearbyPlace;
 };
 
 export const TOPICS: Topic[] = [
@@ -247,6 +250,11 @@ export const TOPICS: Topic[] = [
       zh: 'zemun-in-autumn',
     },
   },
+  ...NEARBY_PLACES.map((place): Topic => ({
+    key: `place:${place.slug}`,
+    slugs: { en: place.slug, sr: place.slug, zh: place.slug },
+    place,
+  })),
 ];
 
 /**
@@ -267,7 +275,7 @@ export function topicPath(locale: Locale, key: TopicKey): string {
 }
 
 export function getTopicBySlug(locale: Locale, slug: string): Topic | undefined {
-  return TOPICS.find((t) => t.slugs[locale as TopicLocale] === slug);
+  return TOPICS.find((t) => t.slugs[locale as TopicLocale] === slug.replace(/^\//, ''));
 }
 
 /** Homepage URL for a locale (all locales are prefixed: /sr, /zh, /en). */
@@ -276,7 +284,3 @@ export function homePath(locale: Locale): string {
 }
 
 export const SITE_URL = 'https://www.zemuncitypark.com';
-
-export function absoluteUrl(locale: Locale, path: string): string {
-  return `${SITE_URL}${localePath(locale, path)}`;
-}

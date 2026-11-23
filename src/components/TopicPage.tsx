@@ -1,10 +1,11 @@
 import { getTranslations } from 'next-intl/server';
+import { ParkVisitDetails } from './VisitDetails';
 import type { Locale } from '@/i18n/routing';
 import {
   TOPICS,
   topicPath,
   homePath,
-  absoluteUrl,
+  SITE_URL,
   type TopicKey,
 } from '@/lib/topics';
 
@@ -31,8 +32,8 @@ export default async function TopicPage({
   const sources = t.raw('sources') as Source[];
   const relatedKeys = t.raw('related') as TopicKey[];
 
-  const selfUrl = absoluteUrl(locale, topicPath(locale, topicKey));
-  const homeUrl = absoluteUrl(locale, homePath(locale));
+  const selfUrl = `${SITE_URL}${topicPath(locale, topicKey)}`;
+  const homeUrl = `${SITE_URL}${homePath(locale)}`;
 
   const related = relatedKeys
     .map((key) => {
@@ -47,7 +48,7 @@ export default async function TopicPage({
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: tUi('home'), item: homeUrl },
-      { '@type': 'ListItem', position: 2, name: tUi('guides'), item: homeUrl },
+      { '@type': 'ListItem', position: 2, name: tUi('guides'), item: `${homeUrl}#guides` },
       { '@type': 'ListItem', position: 3, name: title },
     ],
   };
@@ -97,7 +98,7 @@ export default async function TopicPage({
               {tUi('home')}
             </a>
             <span className="mx-2">›</span>
-            <a href={homePath(locale)} className="hover:underline" style={{ color: 'var(--accent)' }}>
+            <a href={`${homePath(locale)}#guides`} className="hover:underline" style={{ color: 'var(--accent)' }}>
               {tUi('guides')}
             </a>
             <span className="mx-2">›</span>
@@ -133,6 +134,8 @@ export default async function TopicPage({
               </p>
             </section>
           ))}
+
+          <ParkVisitDetails locale={locale} topicKey={topicKey} />
 
           {/* FAQ */}
           <section id="faq" className="mb-12">

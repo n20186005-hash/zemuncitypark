@@ -11,6 +11,10 @@ import {
   type TopicKey,
   type TopicLocale,
 } from '@/lib/topics';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import PlacePage from '@/components/PlacePage';
+import { placePhotos } from '@/lib/place-photos';
 import TopicPage from '@/components/TopicPage';
 
 export function generateStaticParams() {
@@ -31,7 +35,12 @@ export async function generateMetadata({
   const topic = getTopicBySlug(locale as Locale, slug);
   if (!topic) return {};
 
-  const t = await getTranslations({ locale, namespace: `topics.${topic.key}` });
+  const t = topic.place ? null : await getTranslations({ locale, namespace: `topics.${topic.key}` });
+  const title = topic.place?.names[locale as Locale] ?? t!('title');
+  const description = topic.place?.descriptions[locale as Locale] ?? t!('description');
+  const photo = topic.place && placePhotos[topic.place.slug];
+  const photoUrl = photo?.src.startsWith('/') ? `${SITE_URL}${photo.src}` : photo?.src;
+  const image = topic.place ? photoUrl : `${SITE_URL}/gallery/images%20(1).jpg`;
   const selfUrl = `${SITE_URL}${topicPath(locale as Locale, topic.key)}`;
 
   const languages: Record<string, string> = {};
@@ -43,25 +52,27 @@ export async function generateMetadata({
   }
 
   return {
-    title: t('title'),
-    description: t('description'),
+    title,
+    description,
     alternates: {
       canonical: selfUrl,
       languages,
     },
     openGraph: {
-      title: t('title'),
-      description: t('description'),
+      title,
+      description,
       url: selfUrl,
       siteName: 'Zemun City Park — Independent Guide',
       type: 'article',
-      images: [{ url: `${SITE_URL}/gallery/images%20(1).jpg`, width: 1200, height: 630, alt: t('h1') }],
+      images: image
+        ? [topic.place ? { url: image, alt: title } : { url: image, width: 1200, height: 630, alt: t!('h1') }]
+        : [],
     },
     twitter: {
       card: 'summary_large_image',
-      title: t('title'),
-      description: t('description'),
-      images: [`${SITE_URL}/gallery/images%20(1).jpg`],
+      title,
+      description,
+      images: image ? [image] : [],
     },
   };
 }
@@ -80,5 +91,15 @@ export default async function TopicRoute({
 
   setRequestLocale(locale);
 
-  return <TopicPage locale={locale as (typeof routing.locales)[number]} topicKey={topic.key as TopicKey} />;
+  return (
+    <>
+      <Header secondary />
+      <main>
+        {topic.place
+          ? <PlacePage locale={locale as Locale} place={topic.place} />
+          : <TopicPage locale={locale as Locale} topicKey={topic.key as TopicKey} />}
+      </main>
+      <Footer />
+    </>
+  );
 }

@@ -280,12 +280,6 @@ export default async function LocaleLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
         <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
-        <meta property="og:url" content={`${baseUrl}/${locale}`} />
-        <meta property="og:site_name" content={data.attractionFullName} />
-        <meta property="og:image" content={`${baseUrl}${encodeURI(SEO_CONFIG.heroImage)}`} />
-        <meta property="og:image:alt" content={`${data.attractionFullName} in ${data.city}`} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(touristAttractionSchema) }}

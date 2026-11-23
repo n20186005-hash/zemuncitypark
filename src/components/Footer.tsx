@@ -8,7 +8,7 @@ export default function Footer() {
   const prefix = `/${locale}`;
   const topics = messages?.topics as Record<string, { card: string }> | undefined;
   const topicLinks = topics
-    ? TOPICS.filter((topic) => topic.slugs[locale as 'sr' | 'en'])
+    ? TOPICS.filter((topic) => !topic.place && topic.slugs[locale as 'sr' | 'en'])
     : [];
 
   return (
