@@ -36,5 +36,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...homes, ...topics];
+  const sourceLanguages = Object.fromEntries(
+    routing.locales.map(locale => [locale, `${SITE_URL}/${locale}/sources`])
+  );
+  const sourcePages = routing.locales.map(locale => ({
+    url: sourceLanguages[locale],
+    alternates: { languages: sourceLanguages },
+  }));
+
+  return [...homes, ...topics, ...sourcePages];
 }

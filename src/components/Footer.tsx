@@ -45,6 +45,7 @@ export default function Footer() {
             <ul className="mt-2 flex flex-wrap gap-x-5 text-sm">
               <li><a href={`${prefix}#guides`} className={linkClass}>{t('allGuides')}</a></li>
               <li><a href={`${prefix}#nearby`} className={linkClass}>{nearby}</a></li>
+              <li><a href={`${prefix}/sources`} className={linkClass}>{t('sources')}</a></li>
             </ul>
           </div>
 

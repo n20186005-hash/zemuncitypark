@@ -214,6 +214,7 @@
     "openMaps": "在 Google 地图上查看"
   },
   "footer": {
+    "sources": "资料来源",
     "allGuides": "浏览全部指南",
     "guideIndex": "展开专题指南",
     "legal": "法律信息",

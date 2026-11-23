@@ -214,6 +214,7 @@
     "openMaps": "View on Google Maps"
   },
   "footer": {
+    "sources": "Sources",
     "allGuides": "Browse all guides",
     "guideIndex": "Guide index",
     "legal": "Legal information",

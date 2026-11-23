@@ -10,6 +10,16 @@ const path = require('path');
 const read = (f) => fs.readFileSync('out/' + f, 'utf8');
 
 const checks = [
+  ...['en', 'sr', 'zh'].map(locale => ({
+    file: `${locale}/sources.html`,
+    expect: [
+      'id="sources"',
+      `rel="canonical" href="https://www.zemuncitypark.com/${locale}/sources"`,
+      'https://www.gsp.rs/',
+      '6' + (locale === 'sr' ? '.' : ',') + '397',
+    ],
+    notExpect: [],
+  })),
   {
     file: 'en.html',
     expect: [
@@ -21,7 +31,7 @@ const checks = [
       'Zemun City Park (Zemunski Park)',
       'free public park on the old Kontumac quarantine grounds',
       'More Zemun Guides',
-      'Sources &amp; How This Guide Was Checked',
+      'href="/en/sources"',
       '6,397',
       'RCR5+7F Belgrade, Serbia',
       'FAQPage',
@@ -43,7 +53,7 @@ const checks = [
       'href="/en/zemun-in-spring"',
       'href="/en/zemun-in-autumn"',
     ],
-    notExpect: ['Europe&#x27;s most famous', 'Ming Z.', 'Hua L.', 'Fang W.', 'Wei C.', '6,305', '08:00 - 18:00', '15, 84, 704, 706, or 707', 'telephone', 'https://zemuncitypark.com/en'],
+    notExpect: ['id="sources"', 'Europe&#x27;s most famous', 'Ming Z.', 'Hua L.', 'Fang W.', 'Wei C.', '6,305', '08:00 - 18:00', '15, 84, 704, 706, or 707', 'telephone', 'https://zemuncitypark.com/en'],
   },
   {
     file: 'sr.html',
@@ -53,8 +63,9 @@ const checks = [
       '6.397',
       'RCR5+7F Београд, Србија',
       'Још земунских водича',
+      'href="/sr/sources"',
     ],
-    notExpect: ['6.305', 'Марко Д.', 'Јована Л.', 'најпознатије европске'],
+    notExpect: ['id="sources"', '6.305', 'Марко Д.', 'Јована Л.', 'најпознатије европске'],
   },
   {
     file: 'zh.html',
@@ -63,9 +74,9 @@ const checks = [
       '泽蒙城市公园（Zemunski Park）｜位置、历史与游览指南',
       '6,397',
       'RCR5+7F',
-      '信息来源与核对方式',
+      'href="/zh/sources"',
     ],
-    notExpect: ['6,305', ' Ming Z.', '欧洲最著名的边境防疫'],
+    notExpect: ['id="sources"', '6,305', ' Ming Z.', '欧洲最著名的边境防疫'],
   },
   {
     file: 'en/zemun-city-park-guide.html',

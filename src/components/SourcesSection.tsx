@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 type Source = { name: string; url: string; note?: string };
 
 /**
- * Homepage "sources & verification" block: states when facts were last
+ * Sources and verification page: states when facts were last
  * checked and lists the official sources used for this guide.
  */
 export default async function SourcesSection() {
@@ -13,12 +13,12 @@ export default async function SourcesSection() {
   return (
     <section id="sources" className="section-padding">
       <div className="max-w-4xl mx-auto">
-        <h2
+        <h1
           className="font-display text-3xl sm:text-4xl font-semibold mb-4"
           style={{ color: 'var(--text-primary)' }}
         >
           {t('title')}
-        </h2>
+        </h1>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
         <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--text-secondary)' }}>
